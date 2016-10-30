@@ -1,0 +1,4 @@
+Data AIS: GPS for maritime with reference ships and ground stations
+
+data: raw info -  don't use this
+tracks: use this

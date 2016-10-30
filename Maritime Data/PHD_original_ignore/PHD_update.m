@@ -69,7 +69,7 @@ for ii=active_pred
     gmm(ii).w = (1-cst.pD)*gmm(ii).w;           %for weight update
 end
 
-likelihood = exp(-mol_mdterm - cst.nFA)*prod(normtable);
+likelihood = exp(-mol_mdterm)*prod(normtable);
 
 %% variance
 allweights =  zeros(size(gmmtable));

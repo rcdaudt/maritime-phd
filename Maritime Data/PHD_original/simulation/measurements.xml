@@ -1,0 +1,3959 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<root>
+<TrackContestISBI2012 generationDateTime="Fri Oct 28 15:15:21 2016" info="http://bioimageanalysis.org/track/">
+<particle>
+<detection t="1" x="9.38606" y="43.9969" z="0.0"/>
+</particle>
+<particle>
+<detection t="1" x="4.03706" y="13.7043" z="0.0"/>
+</particle>
+<particle>
+<detection t="1" x="36.922" y="20.7118" z="0.0"/>
+</particle>
+<particle>
+<detection t="1" x="22.0655" y="14.804" z="0.0"/>
+</particle>
+<particle>
+<detection t="1" x="7.91549" y="31.4394" z="0.0"/>
+</particle>
+<particle>
+<detection t="2" x="7.20822" y="48.1965" z="0.0"/>
+</particle>
+<particle>
+<detection t="2" x="8.28064" y="48.0113" z="0.0"/>
+</particle>
+<particle>
+<detection t="3" x="28.8831" y="25.7736" z="0.0"/>
+</particle>
+<particle>
+<detection t="3" x="0.0821086" y="31.9898" z="0.0"/>
+</particle>
+<particle>
+<detection t="4" x="25.223" y="20.1227" z="0.0"/>
+</particle>
+<particle>
+<detection t="4" x="28.0696" y="25.0888" z="0.0"/>
+</particle>
+<particle>
+<detection t="4" x="1.77545" y="39.8071" z="0.0"/>
+</particle>
+<particle>
+<detection t="4" x="27.3179" y="2.55714" z="0.0"/>
+</particle>
+<particle>
+<detection t="5" x="22.6103" y="20.4234" z="0.0"/>
+</particle>
+<particle>
+<detection t="5" x="27.6853" y="25.5043" z="0.0"/>
+</particle>
+<particle>
+<detection t="5" x="4.10517" y="14.7707" z="0.0"/>
+</particle>
+<particle>
+<detection t="5" x="5.12867" y="25.3235" z="0.0"/>
+</particle>
+<particle>
+<detection t="5" x="9.52389" y="35.1471" z="0.0"/>
+</particle>
+<particle>
+<detection t="5" x="22.6209" y="16.6024" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="24.5174" y="18.0508" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="29.0279" y="24.2723" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="6.95282" y="26.2089" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="4.47025" y="11.3755" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="13.6457" y="12.0006" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="27.2116" y="44.6167" z="0.0"/>
+</particle>
+<particle>
+<detection t="6" x="18.2355" y="22.9673" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="26.7657" y="18.0133" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="26.418" y="23.9678" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="6.22379" y="19.7636" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="7.45354" y="27.5667" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="4.53181" y="11.0191" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="40.8069" y="21.3608" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="13.8472" y="13.4593" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="28.1733" y="34.0911" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="28.7832" y="17.4372" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="28.7764" y="12.584" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="16.9169" y="11.7832" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="37.1375" y="21.9084" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="15.0248" y="6.30229" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="39.9393" y="10.1516" z="0.0"/>
+</particle>
+<particle>
+<detection t="7" x="4.29749" y="42.0771" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="29.7445" y="20.199" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="26.3921" y="26.4482" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="5.22674" y="20.0633" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="7.03203" y="26.7668" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="2.91205" y="11.7701" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="13.0546" y="14.0289" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="26.9898" y="36.3328" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="29.4329" y="17.1647" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="27.6445" y="12.452" z="0.0"/>
+</particle>
+<particle>
+<detection t="8" x="42.9549" y="27.2152" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="33.7717" y="23.5869" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="26.5965" y="29.0867" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="8.33476" y="23.72" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="5.43888" y="26.5059" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="3.14882" y="15.179" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="39.7561" y="23.6662" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="10.7412" y="11.6409" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="28.6848" y="34.8087" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="30.8175" y="20.0455" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="28.7378" y="12.3522" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="42.9385" y="12.636" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="40.7353" y="47.7676" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="29.3012" y="40.2106" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="22.1752" y="32.8075" z="0.0"/>
+</particle>
+<particle>
+<detection t="9" x="31.9067" y="10.3771" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="37.0124" y="25.5772" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="22.0343" y="36.2371" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="7.28996" y="25.6605" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="7.42054" y="26.3789" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="3.34784" y="19.8071" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="40.1126" y="26.7046" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="10.2343" y="7.07321" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="27.5104" y="33.6573" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="31.8814" y="20.6253" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="25.3415" y="11.3089" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="42.3546" y="10.1347" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="15.3099" y="9.64202" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="6.18308" y="25.8385" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="21.2003" y="39.4472" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="0.264383" y="36.9555" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="3.9083" y="26.39" z="0.0"/>
+</particle>
+<particle>
+<detection t="10" x="41.4904" y="36.3648" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="45.4744" y="27.8558" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="19.9669" y="39.7086" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="8.68026" y="29.5446" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="9.57094" y="25.1191" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="4.30137" y="22.3841" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="11.4596" y="6.39947" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="29.4455" y="30.0908" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="34.4471" y="21.6046" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="22.8246" y="11.434" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="42.0762" y="9.65144" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="16.0786" y="8.12742" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="34.6428" y="9.26036" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="1.71602" y="48.0192" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="37.7437" y="39.2034" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="21.2465" y="46.1347" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="4.18204" y="31.3003" z="0.0"/>
+</particle>
+<particle>
+<detection t="11" x="46.5219" y="17.589" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="18.1989" y="47.8184" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="10.2031" y="33.7774" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="12.8274" y="28.5134" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="5.71027" y="21.0827" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="44.4409" y="33.375" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="8.53203" y="7.43736" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="29.862" y="30.8006" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="36.9274" y="25.0712" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="17.4613" y="11.2882" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="44.3136" y="10.8629" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="15.5889" y="7.62645" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="19.6271" y="14.1011" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="16.1844" y="18.4603" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="30.4313" y="50.2218" z="0.0"/>
+</particle>
+<particle>
+<detection t="12" x="26.199" y="30.0404" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="14.6222" y="34.0526" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="14.9788" y="27.5129" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="6.02531" y="22.032" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="45.3011" y="35.5942" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="6.44384" y="7.94369" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="30.5546" y="30.8168" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="37.5781" y="27.0051" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="12.7136" y="9.87935" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="45.7982" y="10.5603" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="14.9388" y="8.57811" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="17.1147" y="14.1869" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="15.9657" y="21.1087" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="30.6064" y="49.5528" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="47.7966" y="42.6507" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="13.591" y="0.0586479" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="4.75328" y="34.6204" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="41.4272" y="16.5412" z="0.0"/>
+</particle>
+<particle>
+<detection t="13" x="16.9555" y="36.5917" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="22.4382" y="35.7025" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="14.1533" y="26.6376" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="12.0219" y="24.0674" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="47.9966" y="35.3315" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="6.05121" y="7.30888" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="30.6815" y="30.0948" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="36.8898" y="31.8539" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="5.04842" y="9.40973" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="15.9471" y="13.76" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="15.7967" y="23.0649" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="30.279" y="47.7583" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="45.7752" y="43.5347" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="47.9221" y="17.7619" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="22.7421" y="8.92642" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="36.1183" y="29.9551" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="34.5538" y="27.7878" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="2.04029" y="40.7289" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="42.0803" y="18.4804" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="4.60745" y="8.27166" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="29.34" y="8.9297" z="0.0"/>
+</particle>
+<particle>
+<detection t="14" x="24.9507" y="5.87422" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="25.7558" y="38.3222" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="15.2784" y="24.0242" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="15.2326" y="23.1942" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="49.9181" y="39.3725" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="1.45597" y="6.74251" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="31.5936" y="26.9085" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="38.9658" y="30.4747" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="14.911" y="12.2806" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="16.0261" y="9.33957" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="14.3109" y="23.4495" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="35.1993" y="49.1668" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="49.3192" y="48.6745" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="48.7493" y="21.4543" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="23.2973" y="7.39577" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="35.5655" y="27.3736" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="34.2835" y="26.4802" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="35.1541" y="17.5317" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="16.5013" y="41.2585" z="0.0"/>
+</particle>
+<particle>
+<detection t="15" x="34.5985" y="42.319" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="32.4236" y="41.2752" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="21.7502" y="22.6983" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="31.2132" y="25.7573" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="38.6363" y="29.0009" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="15.7879" y="8.58992" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="47.6885" y="21.9708" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="21.5802" y="5.48373" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="34.9284" y="27.1969" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="31.3772" y="26.378" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="5.14322" y="-0.448862" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="5.54735" y="24.0226" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="24.1005" y="3.96192" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="14.8369" y="16.2021" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="43.1639" y="5.49902" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="47.2945" y="20.5178" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="2.30323" y="2.73688" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="23.2258" y="33.8421" z="0.0"/>
+</particle>
+<particle>
+<detection t="16" x="10.7565" y="45.8833" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="38.3533" y="45.7179" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="22.0101" y="23.1492" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="24.0435" y="22.6421" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="32.4691" y="22.5291" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="39.3711" y="30.1693" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="16.7114" y="6.87839" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="15.9465" y="25.7131" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="19.1933" y="8.68905" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="35.6931" y="26.8658" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="30.8125" y="24.5591" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="21.0868" y="25.7489" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="5.03089" y="2.05048" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="31.8312" y="41.1584" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="40.2529" y="42.248" z="0.0"/>
+</particle>
+<particle>
+<detection t="17" x="45.6733" y="30.6032" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="43.3086" y="50.1049" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="24.5509" y="22.908" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="40.1415" y="30.665" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="12.3677" y="14.7663" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="16.6153" y="4.55511" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="15.612" y="25.9538" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="18.1724" y="9.57579" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="35.7344" y="27.2388" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="21.9682" y="27.6102" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="5.24187" y="2.32119" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="31.0332" y="40.6516" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="39.6982" y="42.6676" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="22.3732" y="3.21026" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="34.5715" y="36.794" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="27.831" y="12.972" z="0.0"/>
+</particle>
+<particle>
+<detection t="18" x="36.9126" y="6.40047" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="25.6833" y="19.8158" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="34.2637" y="27.4568" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="36.3042" y="16.9762" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="42.4547" y="27.1304" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="11.1688" y="16.936" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="12.1876" y="27.3145" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="11.7203" y="14.2022" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="31.0715" y="20.5954" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="21.6341" y="26.8202" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="5.18809" y="-0.143997" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="31.869" y="39.6173" z="0.0"/>
+</particle>
+<particle>
+<detection t="19" x="43.333" y="38.0752" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="27.7874" y="15.9802" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="37.6912" y="27.1168" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="38.6571" y="13.2374" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="43.8163" y="23.1097" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="11.0348" y="18.7101" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="13.9521" y="8.74708" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="12.0213" y="32.0384" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="10.7559" y="20.2625" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="40.2822" y="21.4669" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="22.2935" y="26.4896" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="30.844" y="42.699" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="41.3563" y="39.3791" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="14.9798" y="7.20921" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="49.2562" y="32.6556" z="0.0"/>
+</particle>
+<particle>
+<detection t="20" x="14.45" y="15.9572" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="29.8848" y="11.5863" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="39.4256" y="26.9881" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="38.217" y="10.9355" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="49.0576" y="23.4098" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="15.456" y="20.8372" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="15.9344" y="9.42658" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="9.27358" y="37.0219" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="6.99504" y="26.0497" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="41.3988" y="25.5469" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="30.2667" y="15.2997" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="29.2784" y="42.2389" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="14.985" y="6.54402" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="48.0419" y="35.8781" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="10.6746" y="41.2241" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="33.4167" y="37.797" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="14.699" y="38.4944" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="34.3335" y="11.5958" z="0.0"/>
+</particle>
+<particle>
+<detection t="21" x="19.4191" y="28.8347" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="29.9039" y="7.32097" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="42.8258" y="5.63528" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="19.0426" y="22.601" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="16.0935" y="9.67407" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="11.1762" y="38.0854" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="3.11012" y="34.6696" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="45.1761" y="20.6301" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="31.1755" y="11.7231" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="22.7448" y="29.5732" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="31.3497" y="43.8443" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="40.6079" y="40.2307" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="14.6197" y="6.05637" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="47.4312" y="37.8077" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="11.7346" y="42.2868" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="33.2432" y="38.3372" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="16.2736" y="20.3202" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="39.1248" y="48.7214" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="23.5861" y="40.7963" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="35.9528" y="26.1114" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="4.73213" y="2.23596" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="6.04632" y="26.2681" z="0.0"/>
+</particle>
+<particle>
+<detection t="22" x="30.9677" y="46.6954" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="31.7712" y="1.63944" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="42.9778" y="25.744" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="43.6335" y="3.96809" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="23.9773" y="24.1328" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="5.3875" y="41.4148" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="49.6906" y="18.5068" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="28.8342" y="7.64033" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="32.6411" y="44.3814" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="40.4225" y="36.7122" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="13.7857" y="6.3852" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="47.4738" y="36.1437" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="11.491" y="41.3163" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="29.9617" y="33.7401" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="13.2078" y="22.3893" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="38.4577" y="50.9609" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="23.0625" y="39.9551" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="9.35337" y="10.3078" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="44.4272" y="20.1527" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="8.91216" y="5.46686" z="0.0"/>
+</particle>
+<particle>
+<detection t="23" x="2.07668" y="16.3226" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="42.8597" y="22.277" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="43.8067" y="1.25218" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="26.6261" y="26.3805" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="17.152" y="14.8582" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="3.76071" y="44.6372" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="27.1151" y="3.4378" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="19.3615" y="37.0666" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="38.7412" y="36.9617" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="18.1576" y="6.7312" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="46.2824" y="39.0821" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="14.395" y="39.9497" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="25.5746" y="32.6805" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="14.0966" y="20.3089" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="8.31882" y="12.0637" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="45.0737" y="19.3007" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="32.8101" y="31.4168" z="0.0"/>
+</particle>
+<particle>
+<detection t="24" x="6.16708" y="8.26014" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="43.2183" y="21.0282" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="31.7616" y="30.4314" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="18.418" y="23.3436" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="25.3676" y="1.04969" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="15.7748" y="39.2013" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="38.924" y="44.3313" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="37.7357" y="34.803" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="17.6679" y="4.27922" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="44.045" y="38.681" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="22.4902" y="30.4068" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="12.7286" y="20.4204" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="24.7138" y="40.1797" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="44.5285" y="17.7134" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="37.2774" y="30.7789" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="38.616" y="32.8604" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="2.02826" y="24.0819" z="0.0"/>
+</particle>
+<particle>
+<detection t="25" x="7.50123" y="10.6267" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="42.5989" y="16.6611" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="36.3162" y="29.4302" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="21.1169" y="28.4548" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="13.8515" y="38.3056" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="42.0934" y="46.3935" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="38.1162" y="31.7417" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="19.7583" y="0.937946" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="42.2794" y="41.1188" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="17.459" y="39.0938" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="22.4459" y="28.3253" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="11.0781" y="23.5367" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="24.2434" y="40.4216" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="12.6411" y="13.263" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="44.7745" y="20.3759" z="0.0"/>
+</particle>
+<particle>
+<detection t="26" x="35.6864" y="31.6529" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="42.5699" y="12.6903" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="43.0589" y="34.0804" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="24.3689" y="35.1127" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="13.5979" y="42.2032" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="43.181" y="48.477" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="37.8164" y="30.6994" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="42.8689" y="45.8584" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="19.9569" y="42.8299" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="7.83952" y="25.118" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="21.2843" y="38.0201" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="16.1459" y="14.9653" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="45.9257" y="21.4247" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="34.2607" y="32.3769" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="44.9378" y="6.91638" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="17.8112" y="4.45994" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="1.52072" y="21.6919" z="0.0"/>
+</particle>
+<particle>
+<detection t="27" x="18.0039" y="47.3849" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="43.8379" y="32.8234" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="28.4836" y="37.3782" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="33.9136" y="27.5025" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="42.9996" y="48.4438" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="20.4899" y="41.481" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="15.8597" y="24.2333" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="6.59461" y="26.2618" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="21.877" y="37.6441" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="49.6323" y="20.5013" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="34.6996" y="31.3444" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="45.0762" y="7.26087" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="18.137" y="5.22047" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="0.747911" y="23.1933" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="40.9756" y="44.2668" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="33.2121" y="33.5446" z="0.0"/>
+</particle>
+<particle>
+<detection t="28" x="15.3674" y="39.5032" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="43.7506" y="6.8721" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="48.8968" y="32.1547" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="31.0296" y="45.2179" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="31.1" y="27.5472" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="21.8072" y="45.1264" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="16.1132" y="20.6903" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="4.82182" y="26.2431" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="19.0165" y="39.0707" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="18.2059" y="15.265" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="34.0622" y="31.7052" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="17.1693" y="3.07552" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="39.2721" y="43.2521" z="0.0"/>
+</particle>
+<particle>
+<detection t="29" x="4.66688" y="6.3377" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="44.676" y="3.72399" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="24.4008" y="46.4831" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="13.6503" y="16.1754" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="21.0999" y="37.4661" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="21.495" y="17.6848" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="29.7968" y="32.0284" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="43.2508" y="3.51559" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="17.7163" y="4.22696" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="40.8032" y="40.9243" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="20.0999" y="6.99941" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="47.7263" y="8.43371" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="26.4533" y="19.0766" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="1.73667" y="23.5935" z="0.0"/>
+</particle>
+<particle>
+<detection t="30" x="3.75112" y="5.25891" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="44.5754" y="3.25776" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="26.1492" y="22.9508" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="23.0335" y="49.1799" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="13.3067" y="11.3244" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="17.0373" y="35.253" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="24.5477" y="21.0703" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="28.5762" y="29.2257" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="41.9264" y="5.69875" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="16.6814" y="3.10872" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="41.9376" y="40.2816" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="21.5773" y="10.6233" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="49.0905" y="7.97441" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="10.2315" y="40.779" z="0.0"/>
+</particle>
+<particle>
+<detection t="31" x="18.3223" y="12.5701" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="18.6589" y="22.5213" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="22.9279" y="48.5328" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="14.6769" y="8.17956" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="13.827" y="36.0736" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="22.0212" y="20.7487" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="23.4945" y="28.2876" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="39.8208" y="4.11069" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="18.9416" y="-0.212768" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="46.7263" y="39.4585" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="23.0499" y="9.09743" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="49.1141" y="6.18288" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="24.7734" y="18.2358" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="34.8567" y="19.5782" z="0.0"/>
+</particle>
+<particle>
+<detection t="32" x="21.901" y="49.5111" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="13.9622" y="18.8082" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="22.5055" y="47.1566" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="12.4189" y="34.6386" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="23.6907" y="21.708" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="18.7881" y="25.7125" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="38.1415" y="4.58457" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="28.2602" y="9.68268" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="46.812" y="4.16731" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="23.7835" y="16.5942" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="24.3082" y="19.6961" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="7.03317" y="37.5073" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="0.30085" y="19.2111" z="0.0"/>
+</particle>
+<particle>
+<detection t="33" x="17.3109" y="18.3914" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="8.63586" y="15.6953" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="22.7271" y="46.7713" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="8.34506" y="32.0457" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="23.4118" y="26.2222" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="18.4077" y="29.432" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="35.0971" y="7.14143" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="16.7171" y="2.78769" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="30.8161" y="10.5031" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="49.0657" y="1.83744" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="25.5422" y="13.7774" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="8.70687" y="36.3439" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="32.9376" y="45.3926" z="0.0"/>
+</particle>
+<particle>
+<detection t="34" x="34.4367" y="6.8975" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="1.1199" y="12.2054" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="19.8817" y="45.5554" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="6.72548" y="29.1864" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="23.0319" y="32.1618" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="16.476" y="26.9235" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="32.8932" y="7.58781" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="14.0387" y="3.68628" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="33.3623" y="8.52561" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="26.1956" y="13.4659" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="22.6656" y="20.4026" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="8.03667" y="36.8394" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="35.0528" y="46.9974" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="2.82036" y="37.9226" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="15.6661" y="48.834" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="41.5493" y="48.4855" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="25.7224" y="18.6065" z="0.0"/>
+</particle>
+<particle>
+<detection t="35" x="1.88951" y="41.9816" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="17.9986" y="45.112" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="4.45153" y="27.1945" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="24.5614" y="34.3654" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="15.0324" y="25.704" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="28.6939" y="9.94441" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="37.2548" y="7.28211" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="24.4418" y="9.73941" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="22.0976" y="22.564" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="8.39633" y="37.0929" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="35.4132" y="48.0536" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="3.36716" y="36.5191" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="17.1714" y="49.3215" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="40.7868" y="47.0416" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="40.3121" y="30.9849" z="0.0"/>
+</particle>
+<particle>
+<detection t="36" x="48.6953" y="35.61" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="17.6344" y="45.1327" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="3.63949" y="22.6884" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="26.8903" y="37.5689" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="15.5245" y="26.9654" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="8.15763" y="2.53869" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="42.9663" y="4.69622" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="24.3143" y="5.65494" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="24.1157" y="26.5103" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="8.27573" y="37.0689" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="39.8553" y="50.4819" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="3.91666" y="34.6215" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="14.4021" y="48.948" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="41.9295" y="46.5955" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="40.0409" y="30.1757" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="29.3033" y="16.6893" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="46.9665" y="16.7874" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="3.91845" y="38.8538" z="0.0"/>
+</particle>
+<particle>
+<detection t="37" x="22.968" y="34.7802" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="15.083" y="45.2425" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="4.97291" y="20.2283" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="25.759" y="37.5691" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="15.5158" y="23.1733" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="17.5119" y="10.9989" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="43.8106" y="1.59806" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="25.0308" y="5.16789" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="22.3709" y="28.692" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="9.04326" y="34.1575" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="4.67619" y="33.9497" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="44.8525" y="45.9862" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="35.3841" y="30.8791" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="19.1138" y="39.0932" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="40.2884" y="41.7698" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="18.4568" y="15.2603" z="0.0"/>
+</particle>
+<particle>
+<detection t="38" x="47.6927" y="27.7558" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="15.2497" y="46.1162" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="26.3047" y="42.9696" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="13.8646" y="14.6546" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="22.0907" y="1.8992" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="19.6101" y="30.9417" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="10.072" y="34.4603" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="45.7588" y="44.4351" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="33.2492" y="26.3973" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="40.8916" y="0.885642" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="16.7523" y="42.0685" z="0.0"/>
+</particle>
+<particle>
+<detection t="39" x="25.1091" y="37.0512" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="15.5643" y="47.9246" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="3.25226" y="12.8516" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="29.3378" y="45.9709" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="16.0443" y="21.4363" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="10.2043" y="14.0015" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="17.6331" y="33.6571" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="10.8409" y="32.3305" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="11.7834" y="35.2553" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="28.405" y="24.1826" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="20.0661" y="43.1024" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="42.9989" y="-0.457871" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="43.2448" y="42.9619" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="44.6858" y="21.0264" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="4.80522" y="20.8763" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="26.3178" y="9.16709" z="0.0"/>
+</particle>
+<particle>
+<detection t="40" x="28.8338" y="48.9264" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="1.72977" y="9.00857" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="27.3421" y="48.7644" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="17.3323" y="23.5398" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="4.96915" y="16.3414" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="18.2136" y="37.4168" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="7.45625" y="28.0937" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="8.21008" y="34.0009" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="47.4366" y="42.721" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="26.2866" y="22.6908" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="17.1825" y="44.8494" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="43.2777" y="1.97182" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="43.3052" y="47.4707" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="40.1686" y="34.1911" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="8.68422" y="26.7792" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="4.9796" y="42.1265" z="0.0"/>
+</particle>
+<particle>
+<detection t="41" x="39.271" y="34.9185" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="4.67181" y="3.54704" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="18.9445" y="22.2718" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="-0.91072" y="19.8502" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="14.5532" y="41.7604" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="3.10826" y="27.0511" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="48.066" y="41.1418" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="16.3066" y="49.7446" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="43.535" y="0.818474" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="39.113" y="44.5775" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="39.7315" y="33.1078" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="10.8092" y="19.3286" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="21.1164" y="11.4255" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="1.56677" y="48.3765" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="14.1973" y="16.2376" z="0.0"/>
+</particle>
+<particle>
+<detection t="42" x="11.3224" y="12.5989" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="19.4629" y="19.3436" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="14.18" y="44.8462" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="4.49509" y="22.7997" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="8.3321" y="32.8215" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="49.0075" y="38.3281" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="19.6387" y="17.611" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="45.5848" y="-1.06736" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="41.0748" y="49.5087" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="11.4734" y="19.7117" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="23.2705" y="12.5963" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="48.3707" y="22.4133" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="13.4475" y="22.3409" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="32.5456" y="1.09615" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="32.3914" y="19.673" z="0.0"/>
+</particle>
+<particle>
+<detection t="43" x="40.9163" y="33.7476" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="23.296" y="19.4127" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="12.3592" y="48.1745" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="3.13196" y="19.9611" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="5.67257" y="32.7531" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="39.9229" y="33.4336" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="8.78569" y="20.622" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="20.4184" y="10.3953" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="25.6352" y="19.0319" z="0.0"/>
+</particle>
+<particle>
+<detection t="44" x="18.5723" y="48.8661" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="25.0927" y="19.1227" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="1.55026" y="18.6852" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="4.54019" y="33.4963" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="19.9091" y="7.58302" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="41.2719" y="33.081" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="6.60659" y="22.1065" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="20.9542" y="11.7691" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="24.8957" y="18.1412" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="42.454" y="17.7644" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="16.7699" y="46.965" z="0.0"/>
+</particle>
+<particle>
+<detection t="45" x="10.5024" y="36.4352" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="27.5284" y="19.0006" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="21.3257" y="5.40287" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="41.9253" y="37.3689" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="4.22461" y="26.7273" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="20.1235" y="12.7425" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="25.2912" y="18.8082" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="42.2054" y="14.6425" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="27.6932" y="7.21504" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="30.2833" y="12.4597" z="0.0"/>
+</particle>
+<particle>
+<detection t="46" x="18.3095" y="9.43525" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="31.3443" y="20.5167" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="2.32407" y="31.6263" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="19.7135" y="5.49666" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="39.4932" y="40.63" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="5.33453" y="29.8162" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="20.0226" y="11.2004" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="25.5631" y="20.1921" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="44.235" y="16.7854" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="26.2511" y="18.2211" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="30.6421" y="32.3939" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="31.3319" y="41.064" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="31.6215" y="0.945155" z="0.0"/>
+</particle>
+<particle>
+<detection t="47" x="6.56124" y="29.3281" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="37.1289" y="19.2724" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="36.9755" y="45.0698" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="3.94801" y="35.7592" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="19.2551" y="14.1199" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="27.3429" y="18.2999" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="43.348" y="18.7139" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="25.8925" y="17.5564" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="12.4729" y="9.07091" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="20.9521" y="8.7854" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="36.5772" y="45.7009" z="0.0"/>
+</particle>
+<particle>
+<detection t="48" x="22.2099" y="28.7357" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="44.5843" y="17.8588" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="37.135" y="50.0687" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="1.9772" y="40.6118" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="20.9806" y="15.5616" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="27.1546" y="17.3785" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="41.8879" y="16.9715" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="24.9361" y="18.1864" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="7.86856" y="50.958" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="31.5068" y="1.00541" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="21.7126" y="18.951" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="20.0386" y="19.362" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="3.44276" y="22.9744" z="0.0"/>
+</particle>
+<particle>
+<detection t="49" x="33.0767" y="18.8846" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="19.3676" y="18.1807" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="44.882" y="18.9124" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="24.4815" y="21.5503" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="21.4855" y="19.5235" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="19.9734" y="20.8361" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="4.27299" y="22.3471" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="33.0943" y="18.2102" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="23.341" y="49.3775" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="32.8487" y="24.5158" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="26.6366" y="21.4198" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="46.7646" y="48.8061" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="22.8825" y="37.4747" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="11.285" y="20.8503" z="0.0"/>
+</particle>
+<particle>
+<detection t="50" x="2.96159" y="29.0829" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="21.2233" y="19.5051" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="27.965" y="15.5541" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="42.5337" y="17.3225" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="25.3467" y="17.2501" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="18.1122" y="22.8851" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="5.92338" y="23.6309" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="33.1411" y="19.5852" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="24.0946" y="48.3223" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="35.2231" y="25.2684" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="16.8478" y="16.0755" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="15.2967" y="36.5715" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="38.1751" y="6.05634" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="29.8445" y="45.3856" z="0.0"/>
+</particle>
+<particle>
+<detection t="51" x="3.1751" y="35.8244" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="20.6828" y="21.5258" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="29.576" y="17.4305" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="43.6454" y="16.4827" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="21.5022" y="27.4262" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="30.6512" y="12.7953" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="8.4623" y="25.9294" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="36.0475" y="18.7927" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="24.3372" y="46.1343" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="33.9509" y="24.8908" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="26.4868" y="25.6089" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="34.4454" y="32.5768" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="46.4077" y="47.0895" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="12.5323" y="44.1315" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="16.4875" y="9.92095" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="37.632" y="2.12907" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="33.3347" y="35.6999" z="0.0"/>
+</particle>
+<particle>
+<detection t="52" x="1.23084" y="28.8327" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="20.9732" y="20.0283" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="31.9212" y="16.098" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="45.3817" y="17.0855" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="23.5299" y="34.1329" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="8.37502" y="28.5863" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="28.2516" y="44.9596" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="39.0759" y="25.2795" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="23.8901" y="27.3701" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="17.5813" y="30.4856" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="25.4976" y="23.444" z="0.0"/>
+</particle>
+<particle>
+<detection t="53" x="37.6666" y="29.3249" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="21.5758" y="21.9901" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="33.8429" y="18.477" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="43.6093" y="15.0416" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="23.9514" y="36.991" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="37.304" y="2.09233" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="8.6909" y="29.7567" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="39.9449" y="17.9732" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="30.4472" y="41.6534" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="39.7606" y="27.806" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="27.6585" y="31.1446" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="29.7384" y="35.1392" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="17.9107" y="2.71781" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="17.267" y="27.048" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="24.8351" y="40.9668" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="27.4988" y="25.7078" z="0.0"/>
+</particle>
+<particle>
+<detection t="54" x="42.4191" y="43.5761" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="22.0496" y="20.3195" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="34.9601" y="18.2935" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="47.0412" y="20.8866" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="25.1179" y="43.7188" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="12.2609" y="32.8999" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="42.608" y="19.1811" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="36.0606" y="41.9055" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="44.5039" y="28.2028" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="27.7153" y="32.0864" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="15.9701" y="30.4993" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="24.4636" y="44.5431" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="17.6625" y="9.69614" z="0.0"/>
+</particle>
+<particle>
+<detection t="55" x="30.1524" y="35.2195" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="21.2811" y="18.9508" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="37.8439" y="18.8272" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="25.5447" y="46.8493" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="12.3067" y="31.9734" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="42.7584" y="18.7732" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="37.2863" y="43.3322" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="46.578" y="28.0711" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="28.9903" y="34.2068" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="15.408" y="31.4997" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="25.9842" y="45.1106" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="20.4834" y="6.79806" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="49.6907" y="39.3039" z="0.0"/>
+</particle>
+<particle>
+<detection t="56" x="25.8901" y="25.7394" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="20.6895" y="15.2339" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="11.0987" y="34.4856" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="46.2345" y="21.4341" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="44.177" y="44.8759" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="15.9699" y="30.0475" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="26.2641" y="44.2931" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="21.0501" y="7.93937" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="50.7304" y="36.4908" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="1.27608" y="14.8198" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="32.0268" y="29.159" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="16.6259" y="2.81292" z="0.0"/>
+</particle>
+<particle>
+<detection t="57" x="40.3495" y="35.1635" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="19.9255" y="11.8526" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="40.8775" y="26.3086" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="10.8971" y="37.9323" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="45.8543" y="19.7768" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="47.4043" y="45.6016" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="31.3614" y="42.1225" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="21.8749" y="45.1175" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="23.7558" y="9.35878" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="1.67868" y="14.0517" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="34.2295" y="25.753" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="17.0511" y="5.21219" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="33.124" y="33.5746" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="8.89037" y="8.51074" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="26.3711" y="28.749" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="5.39973" y="41.4567" z="0.0"/>
+</particle>
+<particle>
+<detection t="58" x="28.4033" y="9.87216" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="16.988" y="9.92917" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="11.9697" y="39.1719" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="34.3468" y="49.5528" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="10.7617" y="36.457" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="21.2821" y="43.499" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="28.7387" y="11.921" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="3.64366" y="14.0225" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="34.0716" y="25.808" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="20.1507" y="7.03738" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="33.8816" y="32.2563" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="41.0182" y="31.8057" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="43.9219" y="25.5232" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="24.9048" y="29.8326" z="0.0"/>
+</particle>
+<particle>
+<detection t="59" x="40.4917" y="11.514" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="16.7242" y="8.00676" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="43.972" y="33.5365" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="12.1381" y="44.6277" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="46.1663" y="16.4433" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="9.76751" y="39.088" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="18.6715" y="43.5684" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="34.2123" y="13.6794" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="5.46212" y="10.2022" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="30.093" y="22.7392" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="22.5275" y="11.7146" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="35.2004" y="32.2411" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="41.2445" y="31.2659" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="39.9751" y="45.2558" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="5.47842" y="31.0048" z="0.0"/>
+</particle>
+<particle>
+<detection t="60" x="38.1441" y="44.6221" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="16.3535" y="6.4579" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="47.4872" y="35.5156" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="10.3584" y="50.0891" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="47.3173" y="13.5441" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="4.53595" y="42.0722" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="19.5885" y="46.6763" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="41.957" y="15.4454" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="6.23682" y="7.59759" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="22.3965" y="14.0118" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="34.592" y="34.7914" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="41.129" y="31.827" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="25.2368" y="22.88" z="0.0"/>
+</particle>
+<particle>
+<detection t="61" x="31.4403" y="12.7376" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="13.6823" y="7.09836" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="47.4329" y="10.2261" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="18.6891" y="47.5088" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="47.3793" y="18.8942" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="30.7655" y="20.7174" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="22.7774" y="18.8737" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="33.1384" y="32.578" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="39.9492" y="28.4421" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="31.3632" y="15.1272" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="47.7826" y="49.8737" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="43.378" y="5.57799" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="14.3519" y="50.6614" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="18.5648" y="11.1418" z="0.0"/>
+</particle>
+<particle>
+<detection t="62" x="44.8426" y="18.5489" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="10.5737" y="8.5785" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="17.1422" y="48.5219" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="6.68706" y="8.51376" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="29.4531" y="16.9697" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="22.103" y="22.8411" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="32.6754" y="34.8045" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="49.4001" y="50.1098" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="44.5728" y="4.84174" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="15.2049" y="48.4686" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="20.8133" y="39.341" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="33.0814" y="9.33558" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="3.50856" y="18.9612" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="19.4404" y="21.5483" z="0.0"/>
+</particle>
+<particle>
+<detection t="63" x="30.2947" y="22.7661" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="7.1816" y="10.4549" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="23.955" y="27.3207" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="34.5963" y="35.228" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="28.2901" y="14.707" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="47.7081" y="44.4434" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="45.224" y="3.59649" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="15.129" y="47.95" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="21.3739" y="38.5269" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="43.5829" y="44.7725" z="0.0"/>
+</particle>
+<particle>
+<detection t="64" x="12.93" y="35.7664" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="2.14873" y="11.756" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="10.2591" y="11.7523" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="25.7972" y="29.3916" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="32.6634" y="39.2963" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="24.9806" y="16.5865" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="44.6288" y="4.06964" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="18.4059" y="46.3629" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="20.3718" y="39.6537" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="46.755" y="44.4612" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="14.4422" y="36.8006" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="23.589" y="20.9024" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="21.5225" y="48.5549" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="18.5993" y="2.51667" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="15.4602" y="39.9395" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="46.9953" y="6.75648" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="43.4016" y="11.3029" z="0.0"/>
+</particle>
+<particle>
+<detection t="65" x="13.3002" y="14.614" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="13.5391" y="12.1131" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="27.0304" y="33.5655" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="33.3195" y="39.4148" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="23.7818" y="16.8384" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="49.652" y="1.68326" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="16.4334" y="44.6366" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="46.8731" y="40.219" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="14.5728" y="35.4068" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="25.4986" y="22.3714" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="21.4428" y="47.4675" z="0.0"/>
+</particle>
+<particle>
+<detection t="66" x="48.5955" y="17.5497" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="16.4493" y="14.884" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="34.1499" y="39.2923" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="18.593" y="17.5275" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="19.1505" y="42.5216" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="15.5774" y="34.4617" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="26.8671" y="22.5598" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="21.51" y="49.2928" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="22.9933" y="17.9928" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="24.1242" y="11.3244" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="2.22389" y="16.4376" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="48.2729" y="3.25087" z="0.0"/>
+</particle>
+<particle>
+<detection t="67" x="9.42078" y="10.9794" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="20.5622" y="18.9523" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="23.178" y="42.0304" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="35.6738" y="41.32" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="12.44" y="19.9186" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="21.139" y="40.6836" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="25.1488" y="35.7307" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="48.9945" y="32.5953" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="14.2206" y="37.8513" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="30.3881" y="22.6583" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="22.4974" y="49.4057" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="28.2122" y="33.0978" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="39.4328" y="28.3123" z="0.0"/>
+</particle>
+<particle>
+<detection t="68" x="48.7042" y="32.9842" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="25.3944" y="18.7738" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="22.8452" y="47.4968" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="6.55374" y="22.0051" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="24.4542" y="35.8294" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="24.8772" y="33.1008" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="18.0281" y="35.7392" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="34.7882" y="23.1311" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="22.4317" y="50.5213" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="24.8044" y="33.6482" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="39.3927" y="27.1908" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="10.7699" y="45.7945" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="8.41956" y="32.6537" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="36.5154" y="36.5365" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="26.3871" y="5.2742" z="0.0"/>
+</particle>
+<particle>
+<detection t="69" x="34.5564" y="11.9985" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="31.2992" y="21.2961" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="36.7477" y="42.6085" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="3.27415" y="19.8786" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="26.5097" y="33.8362" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="18.7089" y="37.6258" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="40.1499" y="21.1031" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="20.4499" y="48.5168" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="20.9371" y="34.3745" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="41.2319" y="26.832" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="14.5666" y="43.2172" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="3.41642" y="35.8046" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="8.06798" y="29.3699" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="38.7266" y="20.2639" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="29.4322" y="8.51946" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="38.8064" y="14.9525" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="17.7149" y="18.9665" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="21.2195" y="12.0938" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="32.1092" y="6.87146" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="26.1353" y="14.8006" z="0.0"/>
+</particle>
+<particle>
+<detection t="70" x="36.6733" y="9.87379" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="34.6657" y="22.9906" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="37.7744" y="45.3076" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="30.8256" y="30.9981" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="27.7376" y="33.5863" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="42.4106" y="20.4465" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="20.8998" y="47.2292" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="14.2009" y="34.6332" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="41.3434" y="24.9619" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="12.8722" y="43.7377" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="5.25788" y="35.5223" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="7.62203" y="30.3573" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="25.1876" y="37.3899" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="15.1874" y="41.9434" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="7.18337" y="14.0035" z="0.0"/>
+</particle>
+<particle>
+<detection t="71" x="39.12" y="40.0034" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="38.9125" y="25.676" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="38.1569" y="48.5515" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="26.9171" y="32.9188" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="22.9951" y="39.2061" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="48.6002" y="20.8915" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="10.1936" y="38.1842" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="13.8581" y="43.7045" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="4.68915" y="35.9536" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="24.1009" y="35.7561" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="10.5758" y="29.3029" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="31.84" y="48.1262" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="40.7374" y="15.9211" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="1.71518" y="34.3857" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="32.9386" y="49.6179" z="0.0"/>
+</particle>
+<particle>
+<detection t="72" x="25.7554" y="34.8424" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="43.0826" y="27.0908" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="37.1039" y="24.2381" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="23.485" y="27.6637" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="21.6458" y="40.219" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="5.50362" y="36.9965" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="43.6116" y="25.0089" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="11.5619" y="42.599" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="5.15609" y="33.5613" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="22.9298" y="35.5277" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="7.59982" y="27.4103" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="33.5647" y="47.2146" z="0.0"/>
+</particle>
+<particle>
+<detection t="73" x="38.0114" y="16.6376" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="45.8406" y="30.9838" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="40.7126" y="21.7652" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="19.2645" y="25.1393" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="18.2826" y="48.5475" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="20.0472" y="36.0505" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="1.3742" y="38.6797" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="13.6623" y="37.2713" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="5.70601" y="32.2176" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="20.6646" y="36.0442" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="4.68261" y="27.4558" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="31.3959" y="48.1062" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="39.0311" y="19.0243" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="8.19075" y="30.009" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="16.4471" y="20.3515" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="41.3501" y="40.6548" z="0.0"/>
+</particle>
+<particle>
+<detection t="74" x="14.1509" y="22.1096" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="49.6398" y="33.8369" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="45.4616" y="19.8698" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="21.8282" y="34.4118" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="11.0927" y="35.5107" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="16.9381" y="36.003" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="2.57121" y="27.6412" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="31.2364" y="47.3771" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="36.7354" y="22.3579" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="8.24002" y="28.5161" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="37.5494" y="30.2836" z="0.0"/>
+</particle>
+<particle>
+<detection t="75" x="31.6562" y="23.7036" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="16.3377" y="16.7019" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="25.5336" y="26.7953" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="9.85874" y="31.8101" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="0.176919" y="33.8988" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="18.2452" y="36.8585" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="34.5207" y="25.9455" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="33.0097" y="4.08283" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="33.6508" y="32.0337" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="46.0552" y="30.5075" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="28.8951" y="7.75144" z="0.0"/>
+</particle>
+<particle>
+<detection t="76" x="24.7481" y="6.85411" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="13.1473" y="13.5066" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="26.6608" y="21.1994" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="13.0446" y="30.8637" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="17.2328" y="38.2903" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="1.31947" y="30.4121" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="26.5458" y="45.8441" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="30.1111" y="28.1186" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="10.6401" y="25.395" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="40.8763" y="16.9023" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="8.73054" y="32.5815" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="28.3599" y="13.2666" z="0.0"/>
+</particle>
+<particle>
+<detection t="77" x="25.2359" y="44.0501" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="12.9161" y="11.6774" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="30.8102" y="14.5631" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="8.97254" y="27.5683" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="12.4978" y="38.7029" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="0.877556" y="30.7499" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="24.0276" y="46.3598" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="11.6989" y="26.4953" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="18.1939" y="18.1135" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="20.3804" y="13.4782" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="5.45107" y="42.6775" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="17.8961" y="45.1699" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="24.3985" y="49.8614" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="12.2145" y="41.4659" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="43.9014" y="34.9492" z="0.0"/>
+</particle>
+<particle>
+<detection t="78" x="28.1429" y="14.2442" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="10.4302" y="9.72638" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="32.9931" y="7.42027" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="6.48826" y="25.0423" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="9.93538" y="42.7971" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="21.6915" y="46.2522" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="27.4716" y="31.565" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="14.9781" y="24.4077" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="21.1302" y="19.4193" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="32.1561" y="40.8477" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="8.4092" y="10.5476" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="27.2419" y="21.4536" z="0.0"/>
+</particle>
+<particle>
+<detection t="79" x="6.55813" y="5.21719" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="11.0267" y="8.58478" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="2.13597" y="22.0991" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="5.23494" y="45.0626" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="18.021" y="45.8978" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="23.7466" y="29.9637" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="15.9931" y="21.9576" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="21.6417" y="19.3541" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="31.616" y="42.2553" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="48.0432" y="17.7973" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="22.6556" y="36.0596" z="0.0"/>
+</particle>
+<particle>
+<detection t="80" x="9.99067" y="6.75646" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="9.40574" y="4.59445" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="-0.604886" y="15.4961" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="1.08533" y="45.6474" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="15.212" y="45.8743" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="26.0662" y="31.3728" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="17.1611" y="19.2275" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="22.6134" y="17.9767" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="29.1979" y="43.2638" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="45.9859" y="17.4682" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="3.0399" y="22.5919" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="9.38194" y="34.435" z="0.0"/>
+</particle>
+<particle>
+<detection t="81" x="33.7096" y="11.9376" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="9.33631" y="6.54151" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="8.53884" y="47.3132" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="19.1903" y="29.6084" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="22.5206" y="13.2691" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="27.1593" y="19.2994" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="31.2595" y="41.2602" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="47.5305" y="16.9602" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="6.28897" y="22.361" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="9.18389" y="32.8891" z="0.0"/>
+</particle>
+<particle>
+<detection t="82" x="22.1046" y="7.22021" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="5.49949" y="4.04352" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="2.15699" y="48.2652" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="14.0909" y="26.8895" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="22.3339" y="9.9964" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="25.5518" y="16.8638" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="31.7099" y="42.0507" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="46.6823" y="17.0396" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="8.64857" y="24.8833" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="9.30116" y="36.0421" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="20.4794" y="18.0333" z="0.0"/>
+</particle>
+<particle>
+<detection t="83" x="16.9659" y="11.0085" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="3.46173" y="6.21318" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="8.72043" y="24.6068" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="27.0896" y="3.39178" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="29.6824" y="16.4071" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="31.0417" y="42.4996" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="45.4578" y="19.1687" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="10.2814" y="22.0342" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="9.16984" y="36.73" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="44.1241" y="14.3125" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="48.5631" y="32.2249" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="13.9708" y="30.3628" z="0.0"/>
+</particle>
+<particle>
+<detection t="84" x="22.2032" y="8.78458" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="2.76408" y="8.15941" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="5.40468" y="17.7042" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="29.6739" y="14.3836" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="31.5696" y="43.9992" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="45.9395" y="16.2179" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="12.1045" y="23.5062" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="10.8187" y="40.2489" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="50.7034" y="32.3289" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="6.70387" y="25.0613" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="11.302" y="21.7329" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="10.7246" y="5.84256" z="0.0"/>
+</particle>
+<particle>
+<detection t="85" x="41.2192" y="15.0903" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="1.61126" y="9.12897" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="32.4314" y="11.8847" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="33.6033" y="44.2286" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="42.7979" y="17.1014" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="12.7247" y="21.788" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="10.0191" y="40.4123" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="42.9111" y="14.705" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="50.201" y="30.5453" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="6.25604" y="25.703" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="13.0297" y="23.5427" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="48.413" y="47.504" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="33.1206" y="42.4851" z="0.0"/>
+</particle>
+<particle>
+<detection t="86" x="47.4559" y="28.6802" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="-1.05732" y="10.6438" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="33.8933" y="7.46718" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="34.0047" y="47.6998" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="42.6069" y="15.6894" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="16.3934" y="22.9972" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="9.17609" y="46.1513" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="41.0948" y="15.3445" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="48.6957" y="28.363" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="3.05522" y="23.8987" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="41.2402" y="8.27489" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="33.3162" y="43.7337" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="33.9695" y="49.8986" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="31.618" y="1.6329" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="5.23237" y="42.7791" z="0.0"/>
+</particle>
+<particle>
+<detection t="87" x="28.0676" y="4.10117" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="34.1563" y="1.8106" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="32.6583" y="47.5041" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="43.3839" y="15.5282" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="19.5557" y="27.5546" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="8.15078" y="49.6298" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="41.4854" y="15.1372" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="46.5638" y="26.9585" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="2.63117" y="25.3311" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="11.3991" y="24.9297" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="40.4887" y="10.2483" z="0.0"/>
+</particle>
+<particle>
+<detection t="88" x="6.81294" y="12.6775" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="35.9541" y="50.7481" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="41.9601" y="14.7876" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="24.445" y="25.2928" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="43.6682" y="15.9115" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="45.2223" y="22.4795" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="-1.00813" y="27.3311" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="9.77509" y="25.9242" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="39.1722" y="9.93861" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="22.4829" y="36.5618" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="41.9244" y="12.9117" z="0.0"/>
+</particle>
+<particle>
+<detection t="89" x="28.2845" y="41.3549" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="40.2724" y="13.7208" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="27.6041" y="26.0838" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="43.9632" y="11.1816" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="43.3957" y="21.3896" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="4.71032" y="22.8251" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="38.0905" y="16.9221" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="45.3138" y="38.1607" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="31.0683" y="6.31622" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="4.50511" y="27.932" z="0.0"/>
+</particle>
+<particle>
+<detection t="90" x="4.96081" y="3.75236" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="40.8474" y="11.5151" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="45.9866" y="11.2658" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="2.44086" y="24.7374" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="34.7905" y="20.3925" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="44.0834" y="39.7046" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="6.68874" y="35.3272" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="6.13162" y="41.1536" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="8.75643" y="4.21045" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="46.0813" y="24.4035" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="15.1676" y="34.6646" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="9.27208" y="49.1777" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="22.0255" y="45.2531" z="0.0"/>
+</particle>
+<particle>
+<detection t="91" x="11.1205" y="25.4474" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="39.5213" y="8.53139" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="38.9675" y="25.8023" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="47.5478" y="10.5992" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="40.6386" y="20.1785" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="38.8565" y="38.8813" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="9.547" y="32.4545" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="6.83879" y="41.6852" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="7.58603" y="3.53823" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="1.57577" y="19.7783" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="28.6939" y="45.0886" z="0.0"/>
+</particle>
+<particle>
+<detection t="92" x="18.4219" y="40.7979" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="35.7811" y="4.86826" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="44.9969" y="25.5758" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="44.3365" y="18.78" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="28.7759" y="31.1622" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="42.4768" y="38.1058" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="9.48496" y="34.4958" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="9.58483" y="42.5799" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="4.69028" y="4.52521" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="25.8911" y="22.9881" z="0.0"/>
+</particle>
+<particle>
+<detection t="93" x="40.7799" y="46.7644" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="35.7985" y="7.39526" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="40.153" y="15.8898" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="29.808" y="37.3316" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="37.9954" y="39.3108" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="11.7341" y="33.6553" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="10.9212" y="45.2636" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="4.80756" y="4.88554" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="24.982" y="23.7721" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="15.9785" y="2.46214" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="34.7434" y="19.3395" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="7.8628" y="27.8929" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="1.17353" y="36.0426" z="0.0"/>
+</particle>
+<particle>
+<detection t="94" x="34.1556" y="29.6701" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="39.2878" y="5.86198" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="41.3771" y="15.399" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="25.4115" y="42.4513" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="9.60645" y="34.9045" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="12.2968" y="48.6573" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="4.01864" y="7.36487" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="27.3679" y="23.2336" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="-0.738863" y="25.0783" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="2.81392" y="24.0883" z="0.0"/>
+</particle>
+<particle>
+<detection t="95" x="43.1759" y="14.5059" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="40.4754" y="5.20198" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="38.3879" y="12.303" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="22.4566" y="46.606" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="9.59416" y="35.2349" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="3.86372" y="4.88623" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="26.4336" y="21.566" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="0.696488" y="24.6563" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="12.5195" y="15.7884" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="26.502" y="33.2492" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="43.0646" y="24.7168" z="0.0"/>
+</particle>
+<particle>
+<detection t="96" x="4.83622" y="38.7917" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="40.6668" y="6.52666" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="34.4902" y="8.16871" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="7.9917" y="38.5043" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="3.65063" y="7.86512" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="25.4232" y="21.8147" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="3.28207" y="25.4179" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="13.5709" y="15.3106" z="0.0"/>
+</particle>
+<particle>
+<detection t="97" x="4.63564" y="28.949" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="44.2345" y="7.39349" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="26.318" y="6.48107" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="8.49395" y="42.2442" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="2.55909" y="6.80344" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="25.2232" y="22.6213" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="5.76836" y="26.0892" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="14.7579" y="19.1644" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="33.2591" y="1.97333" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="27.2929" y="37.2444" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="34.511" y="46.5141" z="0.0"/>
+</particle>
+<particle>
+<detection t="98" x="22.8809" y="16.2793" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="23.166" y="2.45324" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="7.50848" y="43.2979" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="25.5727" y="21.0551" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="9.63339" y="30.1568" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="14.5766" y="18.7924" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="27.7389" y="31.9805" z="0.0"/>
+</particle>
+<particle>
+<detection t="99" x="34.0726" y="10.6981" z="0.0"/>
+</particle>
+<particle>
+<detection t="100" x="7.45106" y="44.1814" z="0.0"/>
+</particle>
+<particle>
+<detection t="100" x="24.2778" y="24.7494" z="0.0"/>
+</particle>
+<particle>
+<detection t="100" x="13.8717" y="34.319" z="0.0"/>
+</particle>
+<particle>
+<detection t="100" x="12.3954" y="22.433" z="0.0"/>
+</particle>
+<particle>
+<detection t="100" x="9.24365" y="29.9056" z="0.0"/>
+</particle>
+</TrackContestISBI2012>
+</root>

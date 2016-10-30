@@ -23,7 +23,7 @@ if ~isdir(simfolder)
     mkdir(simfolder);        %if the folder does not exist, create it
 end
 
-[data,gt,trajectories] = simulator(simfolder,cst,0);
+[data,gt,trajectories] = simulator(simfolder,cst,0,0);
 
 %% create initial Gaussian structure
 gaussian = struct('w', 0,...                    % weight
@@ -32,14 +32,13 @@ gaussian = struct('w', 0,...                    % weight
                   'i', 0);                      % flag: active/inactive
 
 gmm_u = repmat(gaussian,cst.gmmax,1);
-isactive = zeros(1,cst.gmmax);
 
 %% The main loop
 for tt=1:cst.tmax
-    [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
-    ind_p = find(isactive);
-    [gmm_u,~,~,isactive] = PHD_update(gmm_p,data{tt},isactive,cst);
-    ind_u = find(isactive);
+    gmm_p = PHD_prediction(gmm_u,cst);
+    gmm_u = PHD_update(gmm_p,data{tt},cst);
+    ind_p = find([gmm_p.i]);
+    ind_u = find([gmm_u.i]);
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(data{tt},1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
     plotGM(data{tt},gt{tt},trajectories,gmm_u,cst,tt);
