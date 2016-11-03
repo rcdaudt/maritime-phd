@@ -1,16 +1,14 @@
 % Simulator for use in RUN_PHD
 % Rodrigo Daudt and Duncan Sommer
 
-% Missing features (not necessarily necessary):
+% Missing features:
 % Does not save data to 'pathName'
-% Does not take bounds into account
-% Does not remove objects when they go out of bounds
-% Does not output trajectories for plotting
+% Noise parameters should come from cst (see line 43,67)
 
 function [Y,X,tracks] = dtSim(pathName,cst,displ)
 % Generate random state X and measurement Y for N time-steps
-% X = [x dx/dt y dy/dt]
-% Y = [x y]
+% X = [x dx/dt y dy/dt id]
+% Y = [x y id]
 
 % Assertions
 N = cst.tmax;
@@ -31,16 +29,16 @@ assert(cst.pixsize_x == cst.pixsize_y)
 m_noise = cst.pixsize_x; % measurement noise
 
 % Matrices
-A = [1 dt 0 0;0 1 0 0;0 0 1 dt;0 0 0 1];
-H = [1 0 0 0;0 0 1 0];
+A = [1 dt 0 0 0;0 1 0 0 0;0 0 1 dt 0;0 0 0 1 0; 0 0 0 0 1];
+H = [1 0 0 0 0; 0 0 1 0 0];
 
 X = cell(N,1);
 Y = cell(N,1);
-tracks = cell(0,1);
 
 n0 = round(4*rand()) + 2;
 
-X{1} = [cst.xwidth*rand(1,n0);randn(1,n0);cst.ywidth*rand(1,n0);randn(1,n0)];
+X{1} = [cst.xwidth*rand(1,n0);randn(1,n0);cst.ywidth*rand(1,n0);randn(1,n0); 1:n0];
+
 Y{1} = H*X{1};
 
 
@@ -53,7 +51,7 @@ for i = 2:N
     n = size(X_old_pruned,2);
     
     % Motion model
-    X{i} = A*X_old_pruned + [p_noise*randn(1,n);v_noise*randn(1,n);p_noise*randn(1,n);v_noise*randn(1,n)];
+    X{i} = A*X_old_pruned + [p_noise*randn(1,n);v_noise*randn(1,n);p_noise*randn(1,n);v_noise*randn(1,n);zeros(1,n)];
     
     % Kill if out of bounds
     x = X{i}(1,:);
@@ -64,7 +62,8 @@ for i = 2:N
     % New objects
     nn = poissrnd(lambda);
     if nn > 0
-        new_objects = [cst.xwidth*rand(1,nn);randn(1,nn);cst.ywidth*rand(1,nn);randn(1,nn)];
+        new_objects = [cst.xwidth*rand(1,nn);randn(1,nn);cst.ywidth*rand(1,nn);randn(1,nn);n0+1:n0+nn];
+        n0 = n0 + nn;
         X{i} = [X{i} new_objects];
     end
     
@@ -80,6 +79,17 @@ for i = 2:N
         Y{i} = [Y{i} FA];
     end
     
+end
+
+
+tracks = cell(n0,1);
+for t = 1:N
+    for k = 1:n0
+        idx = find(X{t}(5,:)==k);
+        if any(idx)
+            tracks{k} = [tracks{k}; X{t}(1:4,idx)' t];
+        end
+    end
 end
 
 % Format the output matrices. 
