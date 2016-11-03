@@ -1,16 +1,8 @@
-% Simulator for use in RUN_PHD
-% Rodrigo Daudt and Duncan Sommer
-
-% Missing features (not necessarily necessary):
-% Does not save data to 'pathName'
-% Does not take bounds into account
-% Does not remove objects when they go out of bounds
-% Does not output trajectories for plotting
-
 function [Y,X,tracks] = dtSim(pathName,cst,displ)
 % Generate random state X and measurement Y for N time-steps
 % X = [x dx/dt y dy/dt]
 % Y = [x y]
+% Rodrigo Daudt
 
 % Assertions
 N = cst.tmax;
@@ -75,12 +67,11 @@ for i = 2:N
     
 end
 
-% Format the output matrices. 
-% Get rid of velocity info and transpose each timeframe.
-for j = 1:N
+% Don't output GT velocity info
+for j = 1:size(X)
     x = X{j};
-    X{j} = x([1 3],:)';
-    Y{j} = Y{j}';
+    X{j} = x(
 end
+
 
 end
