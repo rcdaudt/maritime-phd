@@ -23,8 +23,9 @@ if ~isdir(simfolder)
     mkdir(simfolder);        %if the folder does not exist, create it
 end
 
-[data,gt,trajectories] = simulator(simfolder,cst,0);
-%[data,gt,trajectories] = dtSim(simfolder,cst,0);
+% [data,gt,trajectories] = simulator(simfolder,cst,0);
+addpath '..'
+[data,gt,trajectories] = dtSim(simfolder,cst,0);
 
 %% create initial Gaussian structure
 gaussian = struct('w', 0,...                    % weight

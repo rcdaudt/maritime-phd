@@ -40,7 +40,7 @@ tracks = cell(0,1);
 
 n0 = round(4*rand()) + 2;
 
-X{1} = [rand(1,n0);randn(1,n0);rand(1,n0);randn(1,n0)];
+X{1} = [cst.xwidth*rand(1,n0);randn(1,n0);cst.ywidth*rand(1,n0);randn(1,n0)];
 Y{1} = H*X{1};
 
 
@@ -55,10 +55,16 @@ for i = 2:N
     % Motion model
     X{i} = A*X_old_pruned + [p_noise*randn(1,n);v_noise*randn(1,n);p_noise*randn(1,n);v_noise*randn(1,n)];
     
+    % Kill if out of bounds
+    x = X{i}(1,:);
+    y = X{i}(3,:);
+    inds_keep = ((x < 0) + (x > cst.xwidth) + (y < 0) + (y > cst.ywidth)) == 0;
+    X{i} = X{i}(:,inds_keep);
+    
     % New objects
     nn = poissrnd(lambda);
     if nn > 0
-        new_objects = [rand(1,nn);randn(1,nn);rand(1,nn);randn(1,nn)];
+        new_objects = [cst.xwidth*rand(1,nn);randn(1,nn);cst.ywidth*rand(1,nn);randn(1,nn)];
         X{i} = [X{i} new_objects];
     end
     
@@ -70,7 +76,8 @@ for i = 2:N
     % False alarms
     n_fa = poissrnd(lambda_fa);
     if n_fa > 0
-        Y{i} = [Y{i} rand(2,n_fa)];
+        FA = [cst.xwidth*rand(1,n_fa); cst.ywidth*rand(1,n_fa)];
+        Y{i} = [Y{i} FA];
     end
     
 end
