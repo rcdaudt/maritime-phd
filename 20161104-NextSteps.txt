@@ -1,0 +1,11 @@
+Next steps:
+
+- Research on OSPA (Olex)
+
+- Prune real data
+
+- Apply PHD on pruned real data
+
+- Apply PHD on full real data
+
+- Robustness analysis

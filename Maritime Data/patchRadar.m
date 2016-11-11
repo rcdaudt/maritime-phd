@@ -28,5 +28,6 @@ shipTrajectoryX = shipTrajectoryX(1:end-1);
 shipTrajectoryY = shipTrajectoryY(1:end-1);
 shipTime = shipTime(1:end-1);
 
+
 % save('tracksAIS_Run_01_005_patched.mat','shipHeading','shipTrajectoryX','shipTrajectoryY','shipTime');
 save('tracksAIS_Run_01_005_patched.mat','shipTrajectoryX','shipTrajectoryY','shipTime');
