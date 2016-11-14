@@ -24,9 +24,11 @@ if ~isdir(simfolder)
 end
 
 addpath '..'
-[data,gt,trajectories] = simulator(simfolder,cst,0);
-%[data,gt,trajectories] = dtSim(simfolder,cst,0);
-
+%[data,gt,trajectories] = simulator(simfolder,cst,0);
+[data,gt,trajectories] = dtSim(simfolder,cst,0);
+ospa = Ospa_Adapted(data, gt, 1, 1);
+figure(); plot(ospa);
+title('Ospa metric');
 %% create initial Gaussian structure
 gaussian = struct('w', 0,...                    % weight
                   'm', zeros(cst.Nx,1),...      % mean
