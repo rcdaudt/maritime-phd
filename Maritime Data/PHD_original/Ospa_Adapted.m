@@ -1,13 +1,16 @@
-function ospa = Ospa_Adapted(data, gt, cutoff_c, order_p)
-ospa = zeros(1,size(data,1));
-for i = 1:size(data,1)
-    Nobj_data = size(data{i},1);
-    Nobj_gt = size(gt{i},1);    
-    X = [data{i}'; zeros(2,Nobj_data)];
-    Y = [gt{i}'; zeros(2,Nobj_gt)];
-    ospa(i) = ospa_dist(X, Y, cutoff_c, order_p); 
-
+function ospa = Ospa_Adapted(gmm_u, data, cutoff_c, order_p)
+ind4X = {gmm_u.w}.'; 
+nonZero = find([ind4X{:}] > 0.05);
+X = {gmm_u.m}.'; 
+X = X(nonZero);
+%fix coordinates-velocities positions of X
+for i = 1 : size(X,1)
+    X{i} = [X{i}(1) X{i}(3) X{i}(2) X{i}(4)] ;
 end
+X = cell2mat(X)';
+%add fake velocities for Y    
+Y = [data'; zeros(2,size(data,1)) ]   ;
+ospa = ospa_dist(X, Y, 1, 1);
 end
 
 
