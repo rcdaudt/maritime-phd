@@ -45,11 +45,11 @@ cst.T = 1;                          % time step length
 
 
 %% all the other constants
-cst.nFA = 3;                        % mean no of fa/frame
+cst.nFA = 1;                        % mean no of fa/frame
 cst.pFA = cst.nFA/cst.npix;         % probability of false alarms (per px)
 
-cst.pS = 0.99;                      % probability of survival
-cst.pD = 0.9;                       % probability of detection
+cst.pS = 0.999;                      % probability of survival
+cst.pD = 0.95;                       % probability of detection
 
 cst.sigmaz_x = cst.pixsize_x;       % measurement noise standard deviation
 cst.sigmaz_y = cst.pixsize_y;       % measurement noise standard deviation
@@ -60,7 +60,7 @@ cst.sigmavel_y = 0.3;               % std deviation of initial velocity
 cst.q_x = 1;                      % accelleration noise
 cst.q_y = 1;                      % accelleration noise
 
-cst.gmmax = 5000;                   % maximum number of Gaussians
+cst.gmmax = 50;                   % maximum number of Gaussians
 
 %% Target birth
 cst.nBirth = 1;                   % mean no of births / frame
