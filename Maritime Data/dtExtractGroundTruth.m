@@ -15,7 +15,7 @@ for i = 1:numel(shipTime)
     idx2 = find(ship2.numTime > shipTime(i), 1);
     
     coords = [ship1.X(idx1) ship2.X(idx2);...
-              ship1.Y(idx1) ship2.Y(idx2)];
+              ship1.Y(idx1) ship2.Y(idx2)]';
     
     
     

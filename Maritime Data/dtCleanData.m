@@ -1,4 +1,4 @@
-% Trim the good boat data from the complete dataset
+% Trim the good ship data from the complete dataset
 % Rodrigo Daudt
 
 clc;

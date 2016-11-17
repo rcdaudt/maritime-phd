@@ -17,7 +17,7 @@ for i = 1:numel(data)
     axis([-7000 7000 -7000 7000]);hold on;
     
     A = gt{i};
-    scatter(A(1,:),A(2,:),'r.');
+    scatter(A(:,1),A(:,2),'r.');
     
     pause(.01);
 end
