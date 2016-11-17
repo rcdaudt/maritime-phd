@@ -8,9 +8,9 @@ ship1 = tracksAIS(5);
 ship2 = tracksAIS(25);
 
 
-gt = cell(1,numel(shipTime)-1);
+gt = cell(numel(shipTime),1);
 
-for i = 1:numel(shipTime)-1
+for i = 1:numel(shipTime)
     idx1 = find(ship1.numTime > shipTime(i), 1);
     idx2 = find(ship2.numTime > shipTime(i), 1);
     
