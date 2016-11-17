@@ -46,7 +46,7 @@ isactive = zeros(1,cst.gmmax);
 
 offset = 6000;
 scale = 50/15000;
-
+ospa = zeros(1,cst.tmax);
 for tt=1:cst.tmax
     [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
     ind_p = find(isactive);
@@ -59,26 +59,12 @@ for tt=1:cst.tmax
     gt{tt} = (gt{tt}+offset)*scale;
     [gmm_u,~,~,isactive] = PHD_update(gmm_p,TR_car,isactive,cst);
     ind_u = find(isactive);
-    
-%     ospa(tt) = Ospa_Adapted(gmm_u, data{tt}, 1, 1);
-    
-    
-    
-%         ind4X = {gmm_u.w}.'; 
-%         nonZero = find([ind4X{:}] ~= 0);
-%         X = {gmm_u.m}.'; 
-%         X = X(nonZero);
-%         %fix coordinates-velocities positions of X
-%         for i = 1 : size(X,1)
-%             X{i} = [X{i}(1) X{i}(3) X{i}(2) X{i}(4)] ;
-%         end
-%             X = cell2mat(X)';
-%         Y = [data{tt}'; zeros(2,size(data{tt},1)) ]   ;
-%         ospa(tt) = ospa_dist(X, Y, 1, 1);
-    
+    ospa(tt) = Ospa_Adapted(gmm_u, gt{tt}, 1, 1);  
+
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
     plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
 end
+figure(); plot(ospa);
 
 % figure(); plot(ospa); title('Ospa metric'); grid on;
