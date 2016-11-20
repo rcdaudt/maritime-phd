@@ -9,6 +9,7 @@ function RUN_PHD_RealData_easy()
 % AUTHOR    Isabel Schlangen, (c) 2016
 
 clear
+close all
 clc
 rng(5);
 
@@ -64,6 +65,9 @@ for tt=1:cst.tmax
     n_obj = ceil(sum(w));
     ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
     
+    if exist('gmm_u_s', 'var')
+        gmm_u_saved = gmm_u_s;
+    end
     gmm_u_s = gmm_u(ind_u_selected);
     
     
@@ -71,10 +75,14 @@ for tt=1:cst.tmax
    
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
-
-    dunc_gmphd_plot(gm_prev, gm_current, assoc_thresh)
+    
+    
+    figure(420); hold on; box on; grid on;
+    if exist('gmm_u_saved', 'var')
+        dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
+    end
     %     plotGM2(TR_car,gt{tt},gmm_u_s,cst,tt);
-%     pause(0.01)
+     pause(0.01)
 end
-figure(); plot(ospa);title('OSPA metric for real data'); grid on;
+%figure(); plot(ospa);title('OSPA metric for real data'); grid on;
 % figure(); plot(ospa); title('Ospa metric'); grid on;
