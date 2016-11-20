@@ -3,7 +3,6 @@
 
 clc;
 clear;
-close all
 load('MarCE_Radar_Detections_01_005_patched.mat');
 
 data_clean = cell(size(data));
