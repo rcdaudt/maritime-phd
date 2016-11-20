@@ -31,10 +31,10 @@ elseif cst.dist ==3                 % use Bhattacharyya distance
 end
 
 %% Field of View
-cst.xwidth = 50; %-1500                        % size of FoV in x direction (unit length)
-cst.ywidth = 50; %-1200                        % size of FoV in y direction (unit length)
-cst.npix_x = 50;                        % number of pixels in x direction
-cst.npix_y = 50;                        % number of pixels in y direction
+cst.xwidth = 4500; %-1500                        % size of FoV in x direction (unit length)
+cst.ywidth = 4500; %-1200                        % size of FoV in y direction (unit length)
+cst.npix_x = 4500;                        % number of pixels in x direction
+cst.npix_y = 4500;                        % number of pixels in y direction
 cst.pixsize_x = cst.xwidth/cst.npix_x;  % pixel size in x direction
 cst.pixsize_y = cst.ywidth/cst.npix_y;  % pixel size in x direction
 cst.npix = cst.npix_x*cst.npix_y;       % total number of pixels
@@ -51,11 +51,11 @@ cst.pFA = cst.nFA/cst.npix;         % probability of false alarms (per px)
 cst.pS = 0.99;                      % probability of survival
 cst.pD = 0.95;                       % probability of detection
 
-cst.sigmaz_x = .1*cst.pixsize_x;       % measurement noise standard deviation
-cst.sigmaz_y = .1*cst.pixsize_y;       % measurement noise standard deviation
+cst.sigmaz_x = 10*cst.pixsize_x;       % measurement noise standard deviation
+cst.sigmaz_y = 10*cst.pixsize_y;       % measurement noise standard deviation
 
-cst.sigmavel_x = 0.1;               % std deviation of initial velocity
-cst.sigmavel_y = 0.1;               % std deviation of initial velocity
+cst.sigmavel_x = 10;               % std deviation of initial velocity
+cst.sigmavel_y = 100;               % std deviation of initial velocity
 
 cst.q_x = 1;                      % accelleration noise
 cst.q_y = 1;                      % accelleration noise

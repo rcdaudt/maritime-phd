@@ -2,8 +2,8 @@
 clc;
 clear;
 
-set(0,'defaultfigurecolor',[1 1 1])
-set(0,'DefaultFigureWindowStyle','docked');
+set(0,'defaultfigurecolor',[.94 .94 .94])
+set(0,'DefaultFigureWindowStyle','normal');
 
 figure(101); clf(101); axis([-500 500 -500 500]); box on; hold on;
 figure(102); clf(102); axis([-500 500 -500 500]); box on; hold on;
