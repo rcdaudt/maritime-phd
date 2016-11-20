@@ -1,4 +1,4 @@
-function cst = PHD_initialiser2()
+function cst = PHD_initialiser3()
 
 % PHD_INITIALISER collects the allocation of all major constants of the
 %                 filter and returns them as a single structure.
@@ -31,10 +31,10 @@ elseif cst.dist ==3                 % use Bhattacharyya distance
 end
 
 %% Field of View
-cst.xwidth = 4500; %-1500                        % size of FoV in x direction (unit length)
-cst.ywidth = 4500; %-1200                        % size of FoV in y direction (unit length)
-cst.npix_x = 4500;                        % number of pixels in x direction
-cst.npix_y = 4500;                        % number of pixels in y direction
+cst.xwidth = 14000; %-1500                        % size of FoV in x direction (unit length)
+cst.ywidth = 14000; %-1200                        % size of FoV in y direction (unit length)
+cst.npix_x = 14000;                        % number of pixels in x direction
+cst.npix_y = 14000;                        % number of pixels in y direction
 cst.pixsize_x = cst.xwidth/cst.npix_x;  % pixel size in x direction
 cst.pixsize_y = cst.ywidth/cst.npix_y;  % pixel size in x direction
 cst.npix = cst.npix_x*cst.npix_y;       % total number of pixels
@@ -49,13 +49,13 @@ cst.nFA = 1;                        % mean no of fa/frame
 cst.pFA = cst.nFA/cst.npix;         % probability of false alarms (per px)
 
 cst.pS = 0.99;                      % probability of survival
-cst.pD = 0.9;                       % probability of detection
+cst.pD = 0.95;                       % probability of detection
 
-cst.sigmaz_x = 500*cst.pixsize_x;       % measurement noise standard deviation
-cst.sigmaz_y = 500*cst.pixsize_y;       % measurement noise standard deviation
+cst.sigmaz_x = 1000*cst.pixsize_x;       % measurement noise standard deviation
+cst.sigmaz_y = 1000*cst.pixsize_y;       % measurement noise standard deviation
 
-cst.sigmavel_x = 500;               % std deviation of initial velocity
-cst.sigmavel_y = 500;               % std deviation of initial velocity
+cst.sigmavel_x = 1000;               % std deviation of initial velocity
+cst.sigmavel_y = 1000;               % std deviation of initial velocity
 
 cst.q_x = 1;                      % accelleration noise
 cst.q_y = 1;                      % accelleration noise
