@@ -72,6 +72,11 @@ for tt=1:cst.tmax
     gmm_u_saved = gmm_u_s;
     gmm_u_s = gmm_u(ind_u_selected);
     
+    % hack 2250
+    aaa = [gmm_u_s.m];
+    aaa = aaa(1,:);
+    gmm_u_s = gmm_u_s(aaa ~= 2250);
+    
     
     ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1, 1);
    
