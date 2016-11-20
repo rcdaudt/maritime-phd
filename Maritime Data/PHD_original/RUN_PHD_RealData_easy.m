@@ -70,6 +70,21 @@ for tt=1:cst.tmax
     end
     gmm_u_s = gmm_u(ind_u_selected);
     
+    % hack
+%     aaa = 0;
+%     for i = 1:length(gmm_u_s)
+%         if gmm_u_s(i-aaa).m(1) == 2250
+%             gmm_u_s = gmm_u_s()
+%             aaa = aaa + 1;
+%         end
+%     end
+    
+    % hack 2
+    aaa = [gmm_u_s.m];
+    aaa = aaa(1,:);
+    gmm_u_s = gmm_u_s(aaa ~= 2250);
+    
+    
     
     ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1, 1);  
    
@@ -79,6 +94,7 @@ for tt=1:cst.tmax
     
     figure(420); hold on; box on; grid on;
     if exist('gmm_u_saved', 'var')
+        axis([0 4500 0 3000]);
         dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
     end
     %     plotGM2(TR_car,gt{tt},gmm_u_s,cst,tt);

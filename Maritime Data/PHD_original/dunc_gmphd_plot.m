@@ -9,12 +9,12 @@ function [] = dunc_gmphd_plot(gm_prev, gm_current, fig, assoc_thresh)
             mahals(j) = (diff' / gm_prev(i).C) * diff;
         end
         
-%         [m, idx] = min(mahals);
-%         if m < assoc_thresh
-%             plot([gm_prev(i).m(1), gm_current(idx).m(1)], ...
-%                  [gm_prev(i).m(3), gm_current(idx).m(3)], ...
-%                  'r', 'LineWidth', 1 );
-%         end
+        [m, idx] = min(mahals);
+        if m < assoc_thresh
+            plot([gm_prev(i).m(1), gm_current(idx).m(1)], ...
+                 [gm_prev(i).m(3), gm_current(idx).m(3)], ...
+                 'r', 'LineWidth', 1 );
+        end
 
          scatter(gm_prev(i).m(1), gm_prev(i).m(3), 'k.');
     end
