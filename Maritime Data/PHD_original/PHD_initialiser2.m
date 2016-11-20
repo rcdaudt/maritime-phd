@@ -48,14 +48,14 @@ cst.T = 1;                          % time step length
 cst.nFA = 1;                        % mean no of fa/frame
 cst.pFA = cst.nFA/cst.npix;         % probability of false alarms (per px)
 
-cst.pS = 0.999;                      % probability of survival
+cst.pS = 0.99;                      % probability of survival
 cst.pD = 0.95;                       % probability of detection
 
-cst.sigmaz_x = cst.pixsize_x;       % measurement noise standard deviation
-cst.sigmaz_y = cst.pixsize_y;       % measurement noise standard deviation
+cst.sigmaz_x = .1*cst.pixsize_x;       % measurement noise standard deviation
+cst.sigmaz_y = .1*cst.pixsize_y;       % measurement noise standard deviation
 
-cst.sigmavel_x = 0.3;               % std deviation of initial velocity
-cst.sigmavel_y = 0.3;               % std deviation of initial velocity
+cst.sigmavel_x = 0.1;               % std deviation of initial velocity
+cst.sigmavel_y = 0.1;               % std deviation of initial velocity
 
 cst.q_x = 1;                      % accelleration noise
 cst.q_y = 1;                      % accelleration noise
@@ -63,7 +63,7 @@ cst.q_y = 1;                      % accelleration noise
 cst.gmmax = 500;                   % maximum number of Gaussians
 
 %% Target birth
-cst.nBirth = 1;                   % mean no of births / frame
+cst.nBirth = .5;                   % mean no of births / frame
 cst.varBirth = 1.0000001; %cst.nBirth;          % in this case, the birth is Poisson
 %pre-defined birth component: weight, mean, covariance, activity flag
 cst.birthcomp = struct(...

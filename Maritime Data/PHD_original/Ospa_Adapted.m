@@ -10,7 +10,7 @@ end
 X = cell2mat(X)';
 %add fake velocities for Y    
 Y = [data'; zeros(2,size(data,1)) ]   ;
-ospa = ospa_dist(X, Y, 1, 1);
+ospa = ospa_dist(X, Y, 300, 2);
 end
 
 

@@ -66,5 +66,5 @@ for tt=1:cst.tmax
     plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
     pause(0.01)
 end
-figure(); plot(ospa);title('OSPA metric for real data')
+figure(); plot(ospa);title('OSPA metric for real data'); grid on;
 % figure(); plot(ospa); title('Ospa metric'); grid on;

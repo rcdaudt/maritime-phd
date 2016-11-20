@@ -10,7 +10,7 @@ function RUN_PHD_RealData()
 
 clear
 clc
-rng(5);
+% rng(5);
 
 %% initialise constants and create Gaussian Mixture
 cst = PHD_initialiser2;
@@ -65,6 +65,6 @@ for tt=1:cst.tmax
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
     plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
 end
-figure(); plot(ospa);
+% figure(); plot(ospa);
 
-% figure(); plot(ospa); title('Ospa metric'); grid on;
+figure(); plot(ospa); title('Ospa metric'); grid on;
