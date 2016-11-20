@@ -64,8 +64,14 @@ for tt=1:cst.tmax
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
     
-    %plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
-    dunc_gmphd_plot(gm_prev, gm_current, assoc_thresh)
+    plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
+        for i = 1:round(sum(wk))
+        if(i>numel(wk))
+            break;
+        end
+        plot(HypP(i).mk(1),HypP(i).mk(3),'.r','MarkerSize',10);
+        MTState = [MTState [HypP(i).mk(1) HypP(i).mk(3)]'];
+    end
     
     pause(0.01)
 end

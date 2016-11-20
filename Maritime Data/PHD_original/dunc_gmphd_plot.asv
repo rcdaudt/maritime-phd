@@ -1,0 +1,20 @@
+function [] = dunc_gmphd_plot(gm_prev, gm_current, assoc_thresh)
+    figure(102);hold on; box on; grid on;
+
+    % For each previous object, find its closest neighbor
+    for i = 1:size(gmm_prev, 2)
+        mahals = [];
+        for j = 1:size(gmm_current, 1)
+            diff = gmm_current(j).m - gmm_prev(i).m;
+            mahals(j) = diff' \ gmm_prev(i).C * diff;
+        end
+        
+        [min, idx] = min(mahals);
+        if min < 1
+            
+        end
+    end
+
+    
+
+end
