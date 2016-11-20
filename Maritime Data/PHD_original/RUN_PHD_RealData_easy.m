@@ -62,7 +62,7 @@ for tt=1:cst.tmax
     w = [gmm_u(ind_u).w];
     w_s = sort(w,'descend');
     n_obj = ceil(sum(w));
-    ind_u_selected = ind_u(w >= w_s(n_obj));
+    ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
     
     gmm_u_s = gmm_u(ind_u_selected);
     

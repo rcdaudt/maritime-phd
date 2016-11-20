@@ -13,7 +13,7 @@ clc
 % rng(5);
 
 %% initialise constants and create Gaussian Mixture
-cst = PHD_initialiser2;
+cst = PHD_initialiser3;
 
 %% read folder where the code is located and create simulation folder
 [homefolder,~,~] = fileparts(mfilename('fullpath'));
@@ -44,26 +44,37 @@ isactive = zeros(1,cst.gmmax);
 %% The main loop
 % ospa = zeros(1,size(data,1));
 
-offset = 6000;
-scale = 50/15000;
+offset = 7000;
+scale = 1;
 ospa = zeros(1,cst.tmax);
 for tt=1:cst.tmax
+    gt{tt} = (gt{tt}+offset)*scale;
     [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
     ind_p = find(isactive);
-%     [gmm_u,~,~,isactive] = PHD_update(gmm_p,data{tt},isactive,cst);
     data_t = data{tt};
     TR_car = cell2mat({data_t.TR})';
     [X,Y] = pol2cart(TR_car(:,1),TR_car(:,2));
     TR_car = [X Y];
     TR_car = (TR_car+offset)*scale;
-    gt{tt} = (gt{tt}+offset)*scale;
     [gmm_u,~,~,isactive] = PHD_update(gmm_p,TR_car,isactive,cst);
+    
     ind_u = find(isactive);
-    ospa(tt) = Ospa_Adapted(gmm_u, gt{tt}, 1, 1);
+
+    w = [gmm_u(ind_u).w];
+    w_s = sort(w,'descend');
+    n_obj = ceil(sum(w));
+    ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
+    
+    gmm_u_s = gmm_u(ind_u_selected);
+    
+    
+    
+    
+    ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1, 1);
 
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
-    plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
+%     plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
 end
 % figure(); plot(ospa);
 
