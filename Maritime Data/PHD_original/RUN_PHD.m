@@ -10,7 +10,7 @@ function RUN_PHD()
 
 clear
 clc
-rng(5);
+rng(1);
 
 %% initialise constants and create Gaussian Mixture
 cst = PHD_initialiser;
@@ -42,6 +42,7 @@ isactive = zeros(1,cst.gmmax);
 ospa = zeros(1,size(data,1));
 
 for tt=1:cst.tmax
+% for tt=1:25
     [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
     ind_p = find(isactive);
     [gmm_u,~,~,isactive] = PHD_update(gmm_p,data{tt},isactive,cst);
