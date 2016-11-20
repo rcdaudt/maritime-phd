@@ -60,7 +60,7 @@ cst.sigmavel_y = 0.3;               % std deviation of initial velocity
 cst.q_x = 1;                      % accelleration noise
 cst.q_y = 1;                      % accelleration noise
 
-cst.gmmax = 50;                   % maximum number of Gaussians
+cst.gmmax = 500;                   % maximum number of Gaussians
 
 %% Target birth
 cst.nBirth = 1;                   % mean no of births / frame

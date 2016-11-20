@@ -59,7 +59,7 @@ for tt=1:cst.tmax
     gt{tt} = (gt{tt}+offset)*scale;
     [gmm_u,~,~,isactive] = PHD_update(gmm_p,TR_car,isactive,cst);
     ind_u = find(isactive);
-    ospa(tt) = Ospa_Adapted(gmm_u, gt{tt}, 1, 1);  
+    ospa(tt) = Ospa_Adapted(gmm_u, gt{tt}, 1, 1);
 
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
