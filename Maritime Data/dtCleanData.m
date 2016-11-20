@@ -21,7 +21,7 @@ for i = 1:numel(data)-10
         if (X(j) > -1500) && (X(j) < 2800) && (Y(j) > -1200) && (Y(j) < 1500)
             data_clean{i}(ind).t = data{i}(j).t;
             data_clean{i}(ind).TR = data{i}(j).TR;
-            data_clean{i7000}(ind).TR_car = [X(j);Y(j)];
+            data_clean{i}(ind).TR_car = [X(j);Y(j)];
             data_clean{i}(ind).cov = data{i}(j).cov;
             ind = ind + 1;
         end
@@ -44,4 +44,4 @@ for i = 1:numel(data_clean)-10
     pause(.01);
 end
 
-save('MarCE_Radar_Detections_01_005_patched_clean.mat','data_clean')
+% save('MarCE_Radar_Detections_01_005_patched_clean.mat','data_clean')
