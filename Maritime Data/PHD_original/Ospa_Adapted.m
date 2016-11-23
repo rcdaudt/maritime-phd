@@ -5,11 +5,10 @@ X = {gmm_u.m}.';
 X = X([ind4X{:}] > 0);
 %fix coordinates-velocities positions of X
 for i = 1 : size(X,1)
-    X{i} = [X{i}(1) X{i}(3) X{i}(2) X{i}(4)] ;
+    X{i} = [X{i}(1) X{i}(3)] ;
 end
 X = cell2mat(X)';
-%add fake velocities for Y    
-Y = [data'; zeros(2,size(data,1)) ]   ;
+Y = data';
 ospa = ospa_dist(X, Y, cutoff_c, order_p);
 end
 

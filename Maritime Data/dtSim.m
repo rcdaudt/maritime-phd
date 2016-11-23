@@ -3,7 +3,6 @@
 
 % Missing features:
 % Does not save data to 'pathName'
-% Noise parameters should come from cst (see line 43,67)
 
 function [Y,X,tracks] = dtSim(pathName,cst,displ)
 % Generate random state X and measurement Y for N time-steps

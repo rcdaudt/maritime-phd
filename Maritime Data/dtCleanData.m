@@ -4,6 +4,7 @@
 clc;
 clear;
 load('MarCE_Radar_Detections_01_005_patched.mat');
+load('dtGroundTruthAIS.mat')
 
 data_clean = cell(size(data));
 
@@ -27,7 +28,8 @@ for i = 1:numel(data)-10
     end
 end
 
-for i = 1:numel(data_clean)-10
+figure('Position',[300 700 700 650]);
+for i = 1:numel(data_clean)
     try
         TR = extractfield(data_clean{i},'TR');
     end
@@ -39,8 +41,17 @@ for i = 1:numel(data_clean)-10
     plot(X,Y,'.b');
     grid on;
     axis([-1500 2800 -1200 1500]);hold on;
+    
+    A = gt{i};
+    scatter(A(:,1),A(:,2),'r.');
 %     axis([-10000 10000 -10000 10000]);hold on;
-    pause(.01);
+%     pause(.01);
 end
+grid on;
+xlabel('X')
+ylabel('Y')
+title('Clean Radar Data with AIS Groundtruth')
+
+legend('Radar Data','AIS Data')
 
 % save('MarCE_Radar_Detections_01_005_patched_clean.mat','data_clean')

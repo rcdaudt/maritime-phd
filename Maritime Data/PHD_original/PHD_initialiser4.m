@@ -1,4 +1,4 @@
-function cst = PHD_initialiser()
+function cst = PHD_initialiser4()
 
 % PHD_INITIALISER collects the allocation of all major constants of the
 %                 filter and returns them as a single structure.
@@ -40,16 +40,16 @@ cst.pixsize_y = cst.ywidth/cst.npix_y;  % pixel size in x direction
 cst.npix = cst.npix_x*cst.npix_y;       % total number of pixels
 
 %% Time constants
-cst.tmax = 50;                     % number of frames
-cst.T = 0.25;                          % time step length
+cst.tmax = 200;                     % number of frames
+cst.T = 0.1;                          % time step length
 
 
 %% all the other constants
 cst.nFA = 1;                        % mean no of fa/frame
 cst.pFA = cst.nFA/cst.npix;         % probability of false alarms (per px)
 
-cst.pS = 0.999;                      % probability of survival
-cst.pD = 0.95;                       % probability of detection
+cst.pS = 0.99;                      % probability of survival
+cst.pD = 0.98;                       % probability of detection
 
 cst.sigmaz_x = cst.pixsize_x;       % measurement noise standard deviation
 cst.sigmaz_y = cst.pixsize_y;       % measurement noise standard deviation
@@ -57,14 +57,14 @@ cst.sigmaz_y = cst.pixsize_y;       % measurement noise standard deviation
 cst.sigmavel_x = 0.3;               % std deviation of initial velocity
 cst.sigmavel_y = 0.3;               % std deviation of initial velocity
 
-cst.q_x = 5;                      % accelleration noise
-cst.q_y = 5;                      % accelleration noise
+cst.q_x = 10;                      % accelleration noise
+cst.q_y = 10;                      % accelleration noise
 
 cst.gmmax = 500;                   % maximum number of Gaussians
 
 %% Target birth
 cst.nBirth = 0.05;                   % mean no of births / frame
-cst.varBirth = 1.0000001; %cst.nBirth;          % in this case, the birth is Poisson
+cst.varBirth = 0.05;          % in this case, the birth is Poisson
 %pre-defined birth component: weight, mean, covariance, activity flag
 cst.birthcomp = struct(...
     'w', cst.nBirth,...

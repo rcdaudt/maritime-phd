@@ -8,12 +8,13 @@ function RUN_PHD()
 %
 % AUTHOR    Isabel Schlangen, (c) 2016
 
-clear
+clear all
+close all
 clc
-rng(1);
+rng(444);
 
 %% initialise constants and create Gaussian Mixture
-cst = PHD_initialiser;
+cst = PHD_initialiser4;
 
 %% read folder where the code is located and create simulation folder
 [homefolder,~,~] = fileparts(mfilename('fullpath'));
@@ -26,6 +27,9 @@ end
 addpath '..'
 %[data,gt,trajectories] = simulator(simfolder,cst,0);
 [data,gt,trajectories] = dtSim(simfolder,cst,0);
+% dtWatevs3(trajectories)
+dtWatevs3(data)
+drawnow;
 % ospa = Ospa_Adapted(data, gt, 1, 1);
 % figure(); plot(ospa);
 % title('Ospa metric');
@@ -41,6 +45,10 @@ isactive = zeros(1,cst.gmmax);
 %% The main loop
 ospa = zeros(1,size(data,1));
 
+figure(420); hold on; box on; grid on; axis([0 50 0 50]);
+title('Data associations on GM-PHD');
+% title('Estimated targets on GM-PHD');
+
 for tt=1:cst.tmax
 % for tt=1:25
     [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
@@ -52,7 +60,11 @@ for tt=1:cst.tmax
     w = [gmm_u(ind_u).w];
     w_s = sort(w,'descend');
     n_obj = ceil(sum(w));
+    if numel(w) == 0
+        continue;
+    end
     ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
+
     
     if exist('gmm_u_s', 'var')
         gmm_u_saved = gmm_u_s;
@@ -64,13 +76,9 @@ for tt=1:cst.tmax
     aaa = [gmm_u_s.m];
     aaa = aaa(1,:);
     gmm_u_s = gmm_u_s(aaa ~= 25);
+
     
-    
-    
-    
-    
-    
-    ospa(tt) = Ospa_Adapted(gmm_u, data{tt}, 5, 2);
+    ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1, 2);
     
     
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...

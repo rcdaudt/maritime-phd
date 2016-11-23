@@ -6,6 +6,7 @@ load('dtGroundTruthAIS.mat')
 
 
 
+figure('Position',[300 700 700 650]);
 for i = 1:numel(data)
     TR = extractfield(data{i},'TR');
     TR = reshape(TR,2,[]);
@@ -19,5 +20,11 @@ for i = 1:numel(data)
     A = gt{i};
     scatter(A(:,1),A(:,2),'r.');
     
-    pause(.01);
+%     pause(.01);
 end
+grid on;
+xlabel('X')
+ylabel('Y')
+title('Radar Data with AIS Ground Truth')
+
+legend('Radar Data','AIS Data')

@@ -48,7 +48,9 @@ isactive = zeros(1,cst.gmmax);
 offset = 1500; %2000;
 scale = 1; %50/7500;
 ospa = zeros(1,cst.tmax);
+figure('Position',[300 700 700 650]);
 figure(420); hold on; box on; grid on; axis([0 4500 0 3000]);
+title('Data associations on GM-PHD');
 gmm_u_s = [];
 
 for tt=1:cst.tmax
@@ -86,7 +88,7 @@ for tt=1:cst.tmax
     
 %     plotGM2(TR_car,gt{tt},gmm_u_s,cst,tt);
     dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
-    pause(0.01)
+%     pause(0.01)
 end
-figure(); plot(ospa);title('OSPA metric for real data'); grid on;
+figure(); plot(ospa);title('OSPA metric for pruned data'); grid on;
 % figure(); plot(ospa); title('Ospa metric'); grid on;
