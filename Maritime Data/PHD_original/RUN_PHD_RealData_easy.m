@@ -48,6 +48,9 @@ isactive = zeros(1,cst.gmmax);
 offset = 1500; %2000;
 scale = 1; %50/7500;
 ospa = zeros(1,cst.tmax);
+figure(420); hold on; box on; grid on; axis([0 4500 0 3000]);
+gmm_u_s = [];
+
 for tt=1:cst.tmax
     gt{tt} = (gt{tt}+offset)*scale;
     [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
@@ -65,32 +68,25 @@ for tt=1:cst.tmax
     n_obj = ceil(sum(w));
     ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
     
-    if exist('gmm_u_s', 'var')
-        gmm_u_saved = gmm_u_s;
-    end
+    
+    gmm_u_saved = gmm_u_s;
     gmm_u_s = gmm_u(ind_u_selected);
     
-    
-    % hack 2
+    % hack 2250
     aaa = [gmm_u_s.m];
     aaa = aaa(1,:);
     gmm_u_s = gmm_u_s(aaa ~= 2250);
     
-    
-    
+        
     ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 450, 2);  
+
    
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
     
-    
-    figure(420); hold on; box on; grid on;
-    if exist('gmm_u_saved', 'var')
-        axis([0 4500 0 3000]);
-        dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
-    end
-    %     plotGM2(TR_car,gt{tt},gmm_u_s,cst,tt);
-     pause(0.01)
+%     plotGM2(TR_car,gt{tt},gmm_u_s,cst,tt);
+    dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
+    pause(0.01)
 end
 figure(); plot(ospa);title('OSPA metric for real data'); grid on;
 % figure(); plot(ospa); title('Ospa metric'); grid on;
