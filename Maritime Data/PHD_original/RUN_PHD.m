@@ -46,22 +46,42 @@ for tt=1:cst.tmax
     [gmm_p,isactive] = PHD_prediction(gmm_u,isactive,cst);
     ind_p = find(isactive);
     [gmm_u,~,~,isactive] = PHD_update(gmm_p,data{tt},isactive,cst);
+    
     ind_u = find(isactive);
-    ospa(tt) = Ospa_Adapted(gmm_u, data{tt}, 1, 1);
-%         ind4X = {gmm_u.w}.'; 
-%         nonZero = find([ind4X{:}] ~= 0);
-%         X = {gmm_u.m}.'; 
-%         X = X(nonZero);
-%         %fix coordinates-velocities positions of X
-%         for i = 1 : size(X,1)
-%             X{i} = [X{i}(1) X{i}(3) X{i}(2) X{i}(4)] ;
-%         end
-%             X = cell2mat(X)';
-%         Y = [data{tt}'; zeros(2,size(data{tt},1)) ]   ;
-%         ospa(tt) = ospa_dist(X, Y, 1, 1);
+    
+    w = [gmm_u(ind_u).w];
+    w_s = sort(w,'descend');
+    n_obj = ceil(sum(w));
+    ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
+    
+    if exist('gmm_u_s', 'var')
+        gmm_u_saved = gmm_u_s;
+    end
+    gmm_u_s = gmm_u(ind_u_selected);
+    
+    
+    % hack 2
+    aaa = [gmm_u_s.m];
+    aaa = aaa(1,:);
+    gmm_u_s = gmm_u_s(aaa ~= 25);
+    
+    
+    
+    
+    
+    
+    ospa(tt) = Ospa_Adapted(gmm_u, data{tt}, 5, 2);
+    
     
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(data{tt},1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
-    plotGM(data{tt},gt{tt},trajectories,gmm_u,cst,tt);
+%     plotGM(data{tt},gt{tt},trajectories,gmm_u,cst,tt);
+    
+    figure(420); hold on; box on; grid on;
+    if exist('gmm_u_saved', 'var')
+        axis([0 50 0 50]);
+        dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
+        drawnow;
+    end
 end
 figure(); plot(ospa); title('Ospa metric'); grid on;

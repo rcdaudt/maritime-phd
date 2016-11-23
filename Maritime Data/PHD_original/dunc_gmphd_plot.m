@@ -16,7 +16,7 @@ function [] = dunc_gmphd_plot(gm_prev, gm_current, fig, assoc_thresh)
                  'r', 'LineWidth', 1 );
         end
 
-         scatter(gm_prev(i).m(1), gm_prev(i).m(3), 'k.');
+%          scatter(gm_prev(i).m(1), gm_prev(i).m(3), 'k.');
     end
 
 end

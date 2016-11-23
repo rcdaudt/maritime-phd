@@ -26,7 +26,7 @@ p_noise = 0.01; % position noise
 assert(cst.sigmavel_x == cst.sigmavel_y)
 v_noise = cst.sigmavel_x; % velocity noise
 assert(cst.pixsize_x == cst.pixsize_y)
-m_noise = cst.pixsize_x; % measurement noise
+m_noise = 0.1*cst.pixsize_x; % measurement noise
 
 % Matrices
 A = [1 dt 0 0 0;0 1 0 0 0;0 0 1 dt 0;0 0 0 1 0; 0 0 0 0 1];

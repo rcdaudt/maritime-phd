@@ -70,14 +70,6 @@ for tt=1:cst.tmax
     end
     gmm_u_s = gmm_u(ind_u_selected);
     
-    % hack
-%     aaa = 0;
-%     for i = 1:length(gmm_u_s)
-%         if gmm_u_s(i-aaa).m(1) == 2250
-%             gmm_u_s = gmm_u_s()
-%             aaa = aaa + 1;
-%         end
-%     end
     
     % hack 2
     aaa = [gmm_u_s.m];
@@ -86,7 +78,7 @@ for tt=1:cst.tmax
     
     
     
-    ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1, 1);  
+    ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 450, 2);  
    
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
@@ -100,5 +92,5 @@ for tt=1:cst.tmax
     %     plotGM2(TR_car,gt{tt},gmm_u_s,cst,tt);
      pause(0.01)
 end
-%figure(); plot(ospa);title('OSPA metric for real data'); grid on;
+figure(); plot(ospa);title('OSPA metric for real data'); grid on;
 % figure(); plot(ospa); title('Ospa metric'); grid on;

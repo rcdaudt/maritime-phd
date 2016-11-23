@@ -31,8 +31,8 @@ elseif cst.dist ==3                 % use Bhattacharyya distance
 end
 
 %% Field of View
-cst.xwidth = 14000; %-1500                        % size of FoV in x direction (unit length)
-cst.ywidth = 14000; %-1200                        % size of FoV in y direction (unit length)
+cst.xwidth = 14000; %                        % size of FoV in x direction (unit length)
+cst.ywidth = 14000; %                        % size of FoV in y direction (unit length)
 cst.npix_x = 14000;                        % number of pixels in x direction
 cst.npix_y = 14000;                        % number of pixels in y direction
 cst.pixsize_x = cst.xwidth/cst.npix_x;  % pixel size in x direction
@@ -45,26 +45,26 @@ cst.T = 1;                          % time step length
 
 
 %% all the other constants
-cst.nFA = 1;                        % mean no of fa/frame
+cst.nFA = 10;                        % mean no of fa/frame
 cst.pFA = cst.nFA/cst.npix;         % probability of false alarms (per px)
 
-cst.pS = 0.99;                      % probability of survival
-cst.pD = 0.95;                       % probability of detection
+cst.pS = 0.97;                      % probability of survival
+cst.pD = 0.8;                       % probability of detection
 
-cst.sigmaz_x = 1000*cst.pixsize_x;       % measurement noise standard deviation
-cst.sigmaz_y = 1000*cst.pixsize_y;       % measurement noise standard deviation
+cst.sigmaz_x = 50*cst.pixsize_x;       % measurement noise standard deviation
+cst.sigmaz_y = 50*cst.pixsize_y;       % measurement noise standard deviation
 
-cst.sigmavel_x = 1000;               % std deviation of initial velocity
-cst.sigmavel_y = 1000;               % std deviation of initial velocity
+cst.sigmavel_x = 50;               % std deviation of initial velocity
+cst.sigmavel_y = 50;               % std deviation of initial velocity
 
-cst.q_x = 1;                      % accelleration noise
-cst.q_y = 1;                      % accelleration noise
+cst.q_x = 10;                      % accelleration noise
+cst.q_y = 10;                      % accelleration noise
 
 cst.gmmax = 500;                   % maximum number of Gaussians
 
 %% Target birth
 cst.nBirth = .5;                   % mean no of births / frame
-cst.varBirth = 1.0000001; %cst.nBirth;          % in this case, the birth is Poisson
+cst.varBirth = cst.nBirth;          % in this case, the birth is Poisson
 %pre-defined birth component: weight, mean, covariance, activity flag
 cst.birthcomp = struct(...
     'w', cst.nBirth,...

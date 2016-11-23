@@ -65,16 +65,33 @@ for tt=1:cst.tmax
     n_obj = ceil(sum(w));
     ind_u_selected = ind_u(w >= w_s(min(n_obj,numel(w))));
     
+    if exist('gmm_u_s', 'var')
+        gmm_u_saved = gmm_u_s;
+    end
     gmm_u_s = gmm_u(ind_u_selected);
     
     
+    % hack 2
+    aaa = [gmm_u_s.m];
+    aaa = aaa(1,:);
+    gmm_u_s = gmm_u_s(abs(aaa - 7000) > 0.1);
     
     
-    ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1, 1);
+    
+    
+    ospa(tt) = Ospa_Adapted(gmm_u_s, gt{tt}, 1000, 2);
 
     fprintf('time %3.d: #targets=%d, #meas=%d, pred - %3.d comp, mu=%.4g, update - %3.d comp, mu=%.4g \n',...
         tt,size(gt{tt},1),size(TR_car,1), length(ind_p),sum([gmm_p(ind_p).w]),length(ind_u),sum([gmm_u(ind_u).w]));
 %     plotGM2(TR_car,gt{tt},gmm_u,cst,tt);
+
+    
+    figure(420); hold on; box on; grid on;
+    if exist('gmm_u_saved', 'var')
+        axis([0 14000 0 14000]);
+        dunc_gmphd_plot(gmm_u_saved, gmm_u_s, 420, 2)
+        drawnow;
+    end
 end
 % figure(); plot(ospa);
 

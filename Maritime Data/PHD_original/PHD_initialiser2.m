@@ -63,7 +63,7 @@ cst.q_y = 10;                      % accelleration noise
 cst.gmmax = 500;                   % maximum number of Gaussians
 
 %% Target birth
-cst.nBirth = .001;                   % mean no of births / frame
+cst.nBirth = .00001;                   % mean no of births / frame
 cst.varBirth = 1.00001; %cst.nBirth;          % in this case, the birth is Poisson
 %pre-defined birth component: weight, mean, covariance, activity flag
 cst.birthcomp = struct(...

@@ -40,7 +40,7 @@ cst.pixsize_y = cst.ywidth/cst.npix_y;  % pixel size in x direction
 cst.npix = cst.npix_x*cst.npix_y;       % total number of pixels
 
 %% Time constants
-cst.tmax = 100;                     % number of frames
+cst.tmax = 200;                     % number of frames
 cst.T = 0.25;                          % time step length
 
 
@@ -57,10 +57,10 @@ cst.sigmaz_y = cst.pixsize_y;       % measurement noise standard deviation
 cst.sigmavel_x = 0.3;               % std deviation of initial velocity
 cst.sigmavel_y = 0.3;               % std deviation of initial velocity
 
-cst.q_x = 1;                      % accelleration noise
-cst.q_y = 1;                      % accelleration noise
+cst.q_x = 5;                      % accelleration noise
+cst.q_y = 5;                      % accelleration noise
 
-cst.gmmax = 5000;                   % maximum number of Gaussians
+cst.gmmax = 500;                   % maximum number of Gaussians
 
 %% Target birth
 cst.nBirth = 0.05;                   % mean no of births / frame
